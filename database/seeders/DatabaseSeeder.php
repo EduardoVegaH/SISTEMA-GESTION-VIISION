@@ -6,6 +6,8 @@ use Illuminate\Database\Seeder;
 use App\Models\Cliente;
 use App\Models\Articulo;
 use Illuminate\Support\Str;
+use App\Models\User;
+use Spatie\Permission\Models\Role;
 
 class DatabaseSeeder extends Seeder
 {
@@ -16,6 +18,21 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        // Llamar al seeder de roles y permisos
+        $this->call(RolesAndPermissionsSeeder::class);
+
+        //Crear un usuario administrador
+        $user = User::firstOrCreate(
+            ['email' => 'admin@viision.com'],
+            [
+                'name' => 'Administrador',
+                'password' => bcrypt('Admin123') 
+            ]
+        );
+
+        // Asignar el rol de 'Admin'
+        $user->assignRole('Admin');
+
         // Crear clientes de ejemplo
         $clientes = [
             [
@@ -84,7 +101,7 @@ class DatabaseSeeder extends Seeder
                 'Stock_minimo' => 20,
                 'Categoria' => 'Ropa',
                 'Marca' => 'ModaExpress',
-                'impuesto' => 'IGV',
+                'Tipo_Impuesto' => 'IGV',
                 'Estado' => '01',
             ],
             [
@@ -95,7 +112,7 @@ class DatabaseSeeder extends Seeder
                 'Stock_minimo' => 15,
                 'Categoria' => 'Ropa',
                 'Marca' => 'ModaExpress',
-                'impuesto' => 'IGV',
+                'Tipo_Impuesto' => 'IGV',
                 'Estado' => '01',
             ],
             [
@@ -106,7 +123,7 @@ class DatabaseSeeder extends Seeder
                 'Stock_minimo' => 10,
                 'Categoria' => 'Ropa',
                 'Marca' => 'ModaExpress',
-                'impuesto' => 'IGV',
+                'Tipo_Impuesto' => 'IGV',
                 'Estado' => '01',
             ],
             [
@@ -117,7 +134,7 @@ class DatabaseSeeder extends Seeder
                 'Stock_minimo' => 8,
                 'Categoria' => 'Calzado',
                 'Marca' => 'ModaExpress',
-                'impuesto' => 'IGV',
+                'Tipo_Impuesto' => 'IGV',
                 'Estado' => '01',
             ],
             [
@@ -128,7 +145,7 @@ class DatabaseSeeder extends Seeder
                 'Stock_minimo' => 5,
                 'Categoria' => 'Accesorios',
                 'Marca' => 'ModaExpress',
-                'impuesto' => 'IGV',
+                'Tipo_Impuesto' => 'IGV',
                 'Estado' => '01',
             ],
         ];
