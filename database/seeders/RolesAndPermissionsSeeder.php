@@ -11,23 +11,23 @@ class RolesAndPermissionsSeeder extends Seeder{
         app()[\Spatie\Permission\PermissionRegistrar::class]-> forgetCachedPermissions();
 
         // Crear los roles
-        $roleAdmin = Role::create(['name' => 'Admin']);
-        $roleVendedor =Role::create(['name' => 'Vendedor']);
-        $roleAlmacenista = Role::create(['name' => 'Almacenistas']);
+        $roleAdmin = Role::firstOrCreate(['name' => 'Admin']);
+        $roleVendedor =Role::firstOrCreate(['name' => 'Vendedor']);
+        $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenistas']);
 
         // Crear los permisos
-        Permission::create(['name' => 'ver-dashboard']);
+        Permission::firstOrCreate(['name' => 'ver-dashboard']);
 
-        Permission::create(['name' => 'gestionar-almacen']);
-        Permission::create(['name' => 'gestionar-articulos']);
-        Permission::create(['name' => 'gestionar-caja']);
-        Permission::create(['name' => 'gestionar-clientes']);
-        Permission::create(['name' => 'gestionar-cotizaciones']);
-        Permission::create(['name' => 'gestionar-empleados']);
-        Permission::create(['name' => 'gestionar-inventario']);
-        Permission::create(['name' => 'gestionar-pedidos']);
-        Permission::create(['name' => 'gestionar-reportes']);
-        Permission::create(['name' => 'gestionar-tiendas']);
+        Permission::firstOrCreate(['name' => 'gestionar-almacen']);
+        Permission::firstOrCreate(['name' => 'gestionar-articulos']);
+        Permission::firstOrCreate(['name' => 'gestionar-caja']);
+        Permission::firstOrCreate(['name' => 'gestionar-clientes']);
+        Permission::firstOrCreate(['name' => 'gestionar-cotizaciones']);
+        Permission::firstOrCreate(['name' => 'gestionar-empleados']);
+        Permission::firstOrCreate(['name' => 'gestionar-inventario']);
+        Permission::firstOrCreate(['name' => 'gestionar-pedidos']);
+        Permission::firstOrCreate(['name' => 'gestionar-reportes']);
+        Permission::firstOrCreate(['name' => 'gestionar-tiendas']);
 
         // Asignar Permisos a los Roles
         // El rol Admin tiene todos los permisos
