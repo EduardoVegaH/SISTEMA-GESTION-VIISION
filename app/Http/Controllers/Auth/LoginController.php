@@ -26,23 +26,39 @@ class LoginController extends Controller
     public function login(Request $request)
     {
         $request->validate([
-            
-        ])
-        $credentials = $request->only('email', 'password');
+            'email' => ['required', 'email'],
+            'password' => ['required'],
+            'remember' => ['sometimes', 'boolean'],
+        ]);
 
-        if (auth()->attempt($credentials)) {
+        $key = $this->throttlekey($request);
+
+        if (RateLimiter::tooManyAttempts($key, 5)){
+            $seconds = RateLimiter::availableIn($key);
+            throw ValidationException::withMessages([
+                'email' => [Lang::get('auth.throttle', ['seconds' => $seconds])],
+            ])->status(429);
+        }
+
+        $credentials = $request->only('email', 'password');
+        $remember = $request->boolean('remember');
+
+        if (Auth::attempt($credentials, $remember)) {
+            RateLimiter::clear($key);
             $request->session()->regenerate();
             return redirect()->intended('dashboard');
         }
 
-        return back()->withErrors(['email' => 'Correo o contraseña incorrectos.'])->onlyInput('email');
+        RateLimiter::hit($key, 60);
+
+        throw ValidationException::withMessages([
+            'email' => [trans('auth.failed')],
+        ]);
     }
     public function logout(Request $request){
-        auth()->logout();
+        Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        return redirect('/login');
+        return redirect('login');
     }
-
-
 }

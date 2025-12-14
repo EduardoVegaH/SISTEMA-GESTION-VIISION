@@ -1,0 +1,561 @@
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImVzUkV3Z25LUlJoM1BTbVYyYmUzR0E9PSIsInZhbHVlIjoiUWtnM3RYd3NlaHlCWkJOczhkSmEySzh1d0dtd0k2SHRHYnFSdjVHZkQ2TW1RRlhsMVJjTkNQUEplVTVTU3RBNTNBTXVCRjdqK2hvK2pDUjJLOFFaQTR6QTlGS1BGTHhhalZGeVMrc3R4T1BHMnRtSVg5VjBTL09ENFh3cG9BKzYiLCJtYWMiOiJhZjA3YzgwOTUxNTcwY2IwNmM4YTE2YzJkNzUwY2JhNjZlNzhmYzUwNWRiMDkwZTcwYjMzZGEwMmNmYTYxZWNkIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjdKeEswOWh1R2t2U0NDWEl3OC9oWWc9PSIsInZhbHVlIjoidStwRFRyZ3ByTTM0cTh2UytjU3dhOW1VNzFFTDlJNjRjVmlkN0FmSXM1MXZLcnIyOGZ0cEZTY0ZqY1cxS2JUZHlMTXhXTEtsUEdXWitXNmsrV0l1QjVDbEcwenl2RjdJSHRXYmgzZFhyMEVZcy8wRjVSSHVuZ0cvYldCbVVhSWciLCJtYWMiOiJiZTgxZmM4NDE2ZTMwMWUyMGVjNmIxNWM1MjNlYTc3MDlhMGZmMTMzNmJkMmEzN2Q4M2U3NjQ4OWZhYzVjN2Q2IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InlXZ0tHd3B1N2J6bUYzeXppUklXUFE9PSIsInZhbHVlIjoiUndqMEc2WjZISnV2eUFNZ2tNMTB4Tmd1NjB1Umo5c0I4K2VBODgxTGdtY2dnelJjUjlweDRKMFMybEhNM2dkU1dmSitnSjVWTlRVNUtSRXpjdXFma1VuU2QzYkZIUzlJWnNhZlNvQTd1U2E4NmlQM1hMbnc1elJ4MVA5QmF2WmwiLCJtYWMiOiIxMTNlYTg2NWIwNGJlYTkwZjE5ODVlOWU0ZTYzMzVlNzQzYTdiOGJmNmZkMTMwMjkxMWRmOGYwZGI5ODAyODQ5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlJlQ09xd0NNWEc0ZHFUYXhOdDAwaHc9PSIsInZhbHVlIjoieWs0MTkzNCtHVnVESXE1MWdjbkoySk1ZdGdpbVF5Z3FkS1A0N1NFMnIxTjNPbm5XWTJkejBxeEdWa0JkTUVWNnRGdlV2WnZyNVA5eFlqNDE0a0h1T1FvWmU3VHM1T2IwTlNqQU9tUklqRWZld1BGcTZwdTVFTFdnRHRla3RwYTAiLCJtYWMiOiIwMjU1ZDhhZWM3MjQ4NDEzODY3Y2I0Nzc1N2NmZTk4ZTViZGYwYjlkOTEzNTQ1YTE5ZDlmYzkxNjhhZjJjNDAwIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjdnaDVWZC8xSXdZYTA4cUdIaXU2Mnc9PSIsInZhbHVlIjoiOXMrd014Ny9TT3k4Z0IwamJHTDB1bEVmclRrUDQrekZoYWdQa0RLR1NnV3krVHAwRmNFSC9mSWIvSnNPQ1BWUlpEZVNuay9Fejh5cXQyc0xRMU1DWUZFV1p1K2tkSFFTNWlOMHA2c2NSRXQvK2lBQ0hKUms0eEVXR2VHZXBwcGsiLCJtYWMiOiJiMzA3YWIzZDUxNjhhNTEyMTEwMDRmM2YyYjAzNTE0ZTBjODRlMjdiNDYwMmE2NTM4MWUyOGMxNmYyYjdmNzVjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImpraTBnYWV5amRwVnFJR3BrWmlieWc9PSIsInZhbHVlIjoiQjdnOTl1dStNT2ZpVnQ1MnAzWXRZYXB3N0xDMzJ2Vncvdmt3MDRuNEVEd3FqS3hxS0k1WmI1T3pTM1VJMUIwNkZ4ZVMzUUljWlRVcmFTczJxQUowN09FdDJxdDhzTCtkazhHQ1hMMHIvK0QwbWtDRXJwSG9FKzlVemhOa2JzSFoiLCJtYWMiOiI0YjY5MGJkMWM3ZWNhZDU0OGZhNzMwNzBlY2ZhNjBlMWZmYjk5NjczNjNiMDc2YThmZjMzYzFjYWM3Njc0Mjk3IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Im9Bc2pJdzgxcTRzNW5rSDZQdE1Kc3c9PSIsInZhbHVlIjoid3lCT3FMajJtcHFGbW1UazBkRy9VUysxMlE4YUE1YmxzZ0JjSmFsU0haVDJpOWZjMmdVY1hJT2FuVmpOZVVyVUJPTVBzZ2FsVklmTWtHT0hCVHJnTlltTUtUTC9zNXBzMTZ3QzdpVVZrTXIzUnkrSGFtckM1YnVWTmw1NXNUOTEiLCJtYWMiOiI2YzMxZTdhMGY2YjJhZmM2MWU5Yzc1ZTM2MzIyMzgzYjI2YzJhMTdjMTkyZDIyMmVkOTQzNTU3ZTg1NDk2MTQyIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IldhakZUeG5sSVFUNmZVb2Jpb1Vyd0E9PSIsInZhbHVlIjoiR1I1aGhyM3dhQ2wxbGZWR0FZRlIwTVRSbE5YV1B6VGN0RHpidEhOYkhCSkRvZndvRWVnYjlNSDBRMHh1MWJFZFNMMG1WZDJUYk5ET0xubjRwb3ZSSkZCVlUzWUNXUVlZWFdRL3I5R295bEQydklEWWRWRjFiMldlelVRclhkZkciLCJtYWMiOiJjODUzMmEwNjg0NDgxZDY3ZGE1OGU2NTZiYTJkMmI2Y2FmYTU5YTIzMDZhMzllYjZmNDM4NGEzYmNkZDEyNWY4IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjNuWk5yL0Y3eHpubVAyVG9aZEEzZ2c9PSIsInZhbHVlIjoiWjVucHlJNHdXdTB6VjZSSXhLOTJuY3E4YzF1bGU2S0pKNlIzYXpaMC9LUFhzTWJ0Z2NCNGNEbEhveUxIbFZBQ1kwZUc5UUtVYm8rRzlHeEc5TDJhdlhaTTQ2c2hWQmxLbTFxdklZQ3JDYk1BNFk3MEdPUmNTVUMvR3RPUWUyTFgiLCJtYWMiOiJlM2M0YTg1Nzk4ZmEyYjg4NDRkOWRmN2ZmYzkxMjlkODc1NzUzZjk2MjQyNmRhMjJiM2ExMTQyOWE4NDVlMzI2IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlhCTXRCbFRrVGx6NUFkNHZETEtGMUE9PSIsInZhbHVlIjoiZGE4bkNRUnIxcXZDdTVVNGV5MHMrZVRRTHNuWTEyOEVaZVYwS1BxS3VubXU0MHFiZzdXTm1Fb0lIYkhvcGVSZGhyYVBuK01odC9tY0lieU83WHRlajRidlpUUnJLakVZemxwand5MGNVWStLM1Y2WXJuM0x0NzRUaEc5R2YrQU4iLCJtYWMiOiI2NDQ4Y2ZkNjAzYzIzYWQ1YWExMjY0YzNhNjlmZjAwMTcyYTk3NTRhMmM3NGQ2ZTQ3NTcyOWFjZDhiODhjMzg5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InE4ZThxWkgwV1VHMWlzYzVQMUpONGc9PSIsInZhbHVlIjoibTFCc2VYODdVNzMwNW5XTnhJaDNNdnowdE84a1VrQzBTTUh5RDJxNXd6K0g3OGdpRmVzZisra2NqM1FVQTR6eDVPN1ZWaUFPanZFM21jeTZVbXg0Q1k1bUM3L0tPZDVhU3N3NUJNbTFoWHBTemdsTHBzWFhYRWIyWXdoMmNvVzAiLCJtYWMiOiIzZTdjMWIxZTY0NDdhZTI5OWZjNjFhMTlmMDQzMzcwYmQyY2ViZGQwYTJiYTcwNDFjZjQzM2FiYjc2MThjOTc3IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IldpeHdVR2RpckdFc2ZSb0VMUXZhUnc9PSIsInZhbHVlIjoibFcyV0gvTmFoNDB2a3VBQjhDQmhGZXZDcUR1NFhlSUtleDNVZEhITFFUWW44RUllZGQwc0oxU3lZOStFZkhMcllRVkRsTFQ4OVlPVkVuNm5Sd1NORnZIVXJFQzBuZkdxU2k2VlZ0dXQ2Ui9xMDU5NjdFV3VhL2hQQ1M5OG54ZEIiLCJtYWMiOiIxMDE3MDdjMjgzNWU4MmVjMzk0NmU2OTE2NWY5NTNlNzgwMjRmODQ3MWRkNmFlNjE4YWUyODY4ZjU1ODI3NjBhIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Ik4wNkwvbXRiU3FrU1N1YVVZOC9aVWc9PSIsInZhbHVlIjoiajRiZy9Ca1E4b3k0WEtnamlQRXNOa1k4Z0tCcEFEY2pEaUVDYy95ODg3S212anlrMXd1WlAvZGRkQTNQaHhPbVBCREtZUGVqejVyNGo4Y1JQZVZaMlBvcUZTa2xEeC9MVUQxeTdqTVliYjVlQ0xOWVZCRVQ0T0cyK01PdFVXS3kiLCJtYWMiOiI1NWVhMDU5NWJhM2I0MDNhZmMxYjZhZGM5NzQyNjI2ZWM4ZDIyYTE0OWM1NTkwYTFhOGZmMDA3ZDQ2ODA3MTM3IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjFTMXJhRnIzYXhvMWRjQ24vOFZHc1E9PSIsInZhbHVlIjoiaHE4S0N5cUcwZWo0NGMrMDUvbVFabi80dVlXeGlrZ3dwT0diYWU3UWJ6YXhNRGs3KzduaHh1SXlNMjcyV0hXb24ybFB4Z3ZONXljRkQwQ1VpKzZMYVJ1cFhOZ2FScitPVit5OExZOEVuTlEvQ1hDRUd6b05vUGdBS1F6YnM1WXoiLCJtYWMiOiJhZjg3ZTI3ZGExMTNlMDFkYTg1YWE2ZTJjNTg0YTA2MDUyNmZhYjU5NzVlODI2OTEyMzlhYzY3ZDRjZmVkY2I0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImJHMkRnSkhHT3pGWlBObGZoa3FXNVE9PSIsInZhbHVlIjoiUFRQMEp5c3d2a1AzY3plcTRLbG05a2xHNDFOeklOeHI4WTY4cEFRUkFYNlRHczlQR1pjeHcrYVFndVIvV0hza2NGeGJHZ3puSlF4cnF1enlnWHRTQ1hzbndSMHBGMHdOUW9vNERoOG9GbnRaNmF6VFVlcGdxR1lEMjBWOGFzYWgiLCJtYWMiOiI1NDQ0YjRmZDc0MjFmMmFiZDE2NGYzMjIyM2E5N2NlMTI2ZDJiYzYxMmYyN2ZhYWJiMGQ3ZGJhY2M5MjUwMGM1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlJtdnpiN2xINE5GYjdtb2IzUXIyRmc9PSIsInZhbHVlIjoiTldwdUg4L2V4VGtibFJQWkxxSWRrUDJUTlF1ZlNIZUdCVURNOFA2UnB5NmlPdlN4ZGhSZFppa3JuUGdPOWNCclZ0TGF6YUhWdmVrdVBGMzh2Y1lnTG9mNjQyMmFNVmlRY0NlWHY5Q1Qvcy9hNlJnN05vU0dodE9pVXRTTkJscHEiLCJtYWMiOiI4Y2U2M2U3YTBmZTNjMmUzMzgxMDkzZDVhODU1OTMzOWFmYmU3NDU2NDE5NzZjYzVjN2E5NjI2MDFiMmFhNmU3IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:47 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:47 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlZteng1cVkwa0N6N0hVeHo4cENHNWc9PSIsInZhbHVlIjoiMDkwckN3a3I2Wk8zTjk2YjIyMnVobmd6a0hVL0FOQytHT2p3VWZYRU12SlowNC9LVStFQ050VmExNkprTmJhS21hUzVRVUo5WlhKWkhVdGhsb21QOEZmRXBRNlowckMybU5zVFVwTUQ2ZVdUb2E1OEFkTTFvWjBUaktQNlF2RXYiLCJtYWMiOiJhYjI5ZTlhZWNkNmZmYTA0M2YzZGIyNTY1MGZjYWUxM2ZiNzM4NmY1ODQzZTUzMzMxOTQzODIyMDQ4NDNkNWIyIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlRtc3ZpVVRlVmJYamk1NWNKV1hKWnc9PSIsInZhbHVlIjoidnBTelIvQitKbUNlZm9BU3Q1Y2M1NlRKTDNnR1pTcE00NUlLam82R0NKVE1XcU1XZXlpZHptY1RaOUphYW5icTFZOEdOM3ErbFNHZkxkdVZ5QUFseVRmbDc3T3FlS2RBdE9HWEhJT0QxaC9LSExyZVRaSnNXdmcySEpDdTkxSXciLCJtYWMiOiI2MWZlN2U2ZDMxMWEwZDg0ZjdiNjJlY2U0MzA0MjNjODg5YmFhMzNiY2FlNzhjZTlmZjU2NDNlM2Y4NjAyZjdmIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkpOQ0ZqNUZISTB1RFk0R3FoK2g5elE9PSIsInZhbHVlIjoiQTVqY0Q4Qlo4Mkt0RkdhdmJLc01iTndkMml3NFZaYTNaT1RTblE5WDE3NTRUNmgrejNNV0JwNDF1K0RQUHdlWnlET2ZocTc3WFpCcnpxYnFxYi8xSDl4Qm14K3JDaE1MeDkzYThaRmp3aTFJZnBsM3E4T0pVK2ZlOWUxUkdxTXgiLCJtYWMiOiJmOTlhODU1MTdlZWQ1MzY4ZjNhZGI0ZDQ5YjVhMjJhYTc5Mzc0NGQxY2VhMTM2MTZjODc0ZjgzYWU4ZTkwMTRlIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6Ik5hVDBzcjFTNkd0djNMVnhjemFUeFE9PSIsInZhbHVlIjoieVRBcTA4dS81RnFPWG1sL01oWmt2WEg5NGg5RFNzWHRUUFdhazBGY3hLRWNPMld6WnE1OUZXRkhTTFhVd2xyc3NyWU1FclFkSkc2UjRadmxvbVFhMGZqMFdONXFseXd3QU5nM1BmZS9hRko4cVBQVU9lNy85TE00NUpDWXAxck8iLCJtYWMiOiIzOTE1ZmY5MDRkODg2NWJjYjVkN2RlODBiZjc1ZWQzNjNlMzhhOTNhYjc5NjJmM2NjNGFlNTVmY2Y4ZjA4NGVjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InhCSGV5MmJzM0s1Vy9MRXAxL05jd3c9PSIsInZhbHVlIjoiM1BDRXJpdERVQWxDaWtqS3RtV1VKcmJJMFV5RE5FOFk2R0RnNCtGRnU2aTdaUzVYbEVwTXJwWFdXZld0ZmpiZzBZVUtXTFY2ZUQvNEd5UjdvMUprdUVHMy9yUFFZSVdlOUhhQWoyZ0VXektPVVFrcVR3K3RMczc0YzBBN0ZXYWgiLCJtYWMiOiIyNDMwYTFkOTA3MzRlNTcxMjEzZmE1ZTY0NTI2MjVjNWIwOGFhNmUwZGRiZDMzNDViY2QxNzQ5MWRlMzdhNDZkIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IldmV1B6TE1Eb2VYeWprb0ZpbkhEOUE9PSIsInZhbHVlIjoibmtaK3kzVnB4VzljenJJN0o2RllPcFBncGJyQWZOd2hiS1NuNmlqUTNkU3VFZy9vZDlrM3cxeUJCYnR3OTdoY0x2a2dlMDZJT3g1dnh2RXBSaFFNRFNzRktyR2h6bmZ5dFJUaUZDbmVjc2VrT1Y1L1JqaTYxaGVKMnRablR0emYiLCJtYWMiOiI5ZjVkOTJkODU5NzAyNDY4MWM0NmM5YmNkMjkwNjFiNWFlYmQ3NDY4NjBlNmVlZmM1ODA2Y2FmNWYyZDVkNTMwIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkhkUWFuR0w3UDJWR2RxQlNsL1lHd1E9PSIsInZhbHVlIjoiaGhtSkt3WDRpUzlGaWtUNHVHeG16UUxpeFBEeGMzdjUzMWR6WEJiU2ZCckgrR1ZRMkkzbFVDZlpNbFlzTjVGWHhqN3RmSWFCWjAyWlZ1MjVIMTdJYXpEYlkwcWVhTStVc0pucmpLd3lObHdUMUloeVM4Q2ZjdWNjOG0wTjF3Q0oiLCJtYWMiOiJkZmFiYTUzYzVkZWExOTIyYTgzM2I1OGVlMGJmZGM1MWYyZDc1MzZlMzNlNDA0OTFlZDhjNDI0NjI3ZmY2ZjQyIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImcxNTBYQURHdGJRblA1d2Z3aGFxWGc9PSIsInZhbHVlIjoiRlRGRmR3eEFhMTF6QmptSzd6cWRma25KUlNiclovcGdIdWFrZjZlTG11b0JTZk9EZDlGZmJja1RMaTVWbmVWcGNnMHRIbisvWjlZNnZEMHlHY1RhcWpRa0hocTNiWDZ5NHF2K2k4UThiOTZYeFZnU1lhc2F5QjdNUUM0WkllQ0MiLCJtYWMiOiI4YzVmZWNhMzNlMWY1MzVmY2ZjMDcxOGZmNmEwNjhjOWYwZmJjNzM4NzA2NTM4ZThiMWVjNTI4ZTk3ZWE2OWFjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IllaYlVkRkxRZDIvakc0cjY4d25ubEE9PSIsInZhbHVlIjoiOXEvOGEzQ0pRKzBacGVsTWZ1R0NEenE2bmg2MDlUY29wa2RNTzVsaFpOQXNtN1RMUzRVSE01alJIUzRCRTVVSis4aHY1andHcnZTTXBsYWNxZWc5WFRSWEJzcHl0SHUvOUU4dU0veFZUSGlVL3R2OFM2eDhqN0VYTWhEOXFKZkUiLCJtYWMiOiJhM2ExZWM3NjRhNWRjMWJlMzU1MWQ0MWZlZjEwNDhlZDc2ZDcxOTAxZGRiNDMyYTc0M2UwYjg5YmI2ZDU3NGE5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImFqMVAvNVhRWWJQZzV1MStZY2paTmc9PSIsInZhbHVlIjoiV2xCYnB3SXl0aDQzZGI5bmwwTU1iMHNjMnNwclhIZTN0a3NkNTAvVGFXTWxzOHpLVVVGY0dsMjFRYm5VTVl1V0VkY0VDYm9sTjlMdy9sL1J1S2NZQ005SnlrcDdUMmRwdG1udE5EeFI0SDd4YnNxemVrekdKdnFrb1Q5OFYrbkgiLCJtYWMiOiI0M2U2OGYwMzk4N2Q3OGQxZjI2ZWNhMDVjZDU5MjRjODg2NWY2ZjliYjc5NTI1MWFkODNiMGEyNGQyMDhkNGVlIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlZqUTJva3Z2MTJlZDgwc3l5T2poaUE9PSIsInZhbHVlIjoiRWRqamE0RUxFM3RjNDBHMU9QcGQ0UlZubVFFRkxTZ0lyY2xLSThGOHZTZTVMRG14RUhEYmMvQkQrMWJiVHlKbWVpd0JzeU9NKzlSTS84ekxOMUZoTVlZLzNEMi85U2hvdW05VUdYc0QvbE1Bc2tVZzFab0pjT1VtL1dEZHRJS1EiLCJtYWMiOiIyOWJhYTBkZWI2Nzc0MDUwZmMxMTQ5NzhlNjQ4MmZlZTgwMjMzZjY4MjcxMDlhMGY4NWEzYmJmZTkwMGE0MmE0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjAxWGNFSWVGSVc5VFJQc08zdC8yakE9PSIsInZhbHVlIjoiQnFVQzRhMkZNYkFLeG1IMTIrdENILzJhRmJMUmcwR3FNbkdhK1licHRJbEdYbDdIbEJDOFN5YTRLVEdncVlBRENscXNHeWc5RWtreEVWTnplZDJTU3RDQnBOVFY5NlV1VENhY01YekxVZ2hhU2ZCeVRYK0xZVGE4Tlp2QnhzUmciLCJtYWMiOiJiMDdhNWU4OWNmZDM2OTg4YTAzNDE1ZmNhNTZiYTVlNTg0MGI5YmVkZmNjNmY3ZGI1MGEwOGIxNDM2MjhjNWQ4IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlNXSmsrTE9XazBLOEpSYW45S1orOWc9PSIsInZhbHVlIjoiRXQ2eUVQLyttQ00ydWswc3pFMjMvRHg5bEtKTkliMk1TTTJremFoMUJtV1hvOWI1TmQxbUQ3dTFJYnVCc0R3QnJHR012ckJ2UXBjd2JQUDN0R0kxSytOV0ZUR3BWa0NpZ0dubXlLV1E2cTN0UGx1YVY3TDVOUXNEdG1tRU1SeGwiLCJtYWMiOiI4MjBlMDM3NjNkOWFmNzdlZTk2YTI2Yzg2MjM2Y2NmMTUyZWJjMDZhNjM3M2VhY2I2NGZkODEwNTQyYTVjMjk1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjRlNFVTdStYZDU2SE1LL2NpRDhLNHc9PSIsInZhbHVlIjoic3VSTFArV3dWcXc2MnI5cWVRNlpCaHpFOVQvMTFrMkJyVlBNem1SY2d5dUh2RlpUMEJZUEZUNUNFV0JlQVJpMU1ZQzVWaCtOYUUwL04wdjZNTHBTVEc2aEd4Z0hVTHRSUUhoV1dXeVRzT3k2WmtzeGJsMW1YbmhUWEtXSHZtbDciLCJtYWMiOiI5YWE4MTg4YTYxMDMyNzBmNGIzZjY3MWYwZWUwYjYzYmIyYmUxMTEyZjNhOGZmYTRlMWJjMTQxNGUwMzhlMjE1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkxCNHVoMkcrWFgvSFZaNTBUTkVlRkE9PSIsInZhbHVlIjoiOTBJaGtpVTRCa3llZW5mVjZ3Z0NWcS9VczJ6U1RQZ0FHRGxSTTNXdGM5YmlDZXNmU0xVd2VSc3NwS1BKdlY0T3diMDd5c1lZMEFzN1o5aHlnakJyaE5IZTZ1b2pTS0wzb0E0a1N2eUlmWkVDaHdsdjY4M0pMZHVtV2NQeGZUZWwiLCJtYWMiOiI1NzEzNTJiZDc3ZTAwNWZjMDc5ZWRmOWQxMmNiZGJjNjk2NDRlNDZlMTQ5ZmQzNThhNTRjMGViODdhYmEzMGM5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkFqcS9pY1hrcFpnV3ZjK09MTjhqV1E9PSIsInZhbHVlIjoiNGFVeW1hTytnNHRhV3dBVk9MSkUzYUhxZ21vWjVKQVdmVEtZakVhdXNBY0M3T1FSRGdkblYwcGpEMUdWam9HSUFKaU9FQnphVnFhNUowVjU0bkhxSW55Qm8yS3VwLzRGdFIyNUZsZzU2T2NuK2FESHhGamxNZjA0RVU2eFNJMVkiLCJtYWMiOiJkYjcyZTFlMjkzNTg3NzdhMDdkYzVmNDJlNzMyNDFiYmE5NWRlYWEwMzAzOTQyNjQ1NmQyNWFhOTY2N2JiMmVlIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InN3YzVqRHdGZTdwV2ZrTUdLNjZYM3c9PSIsInZhbHVlIjoiOVJyVnJpRDY0Mzd2TWlldUppVTNkbjkrZVJPMkxIMDZkdlZNcWRjaDFRUWVqRHAyNGVhS1daZFZqdS9vUUpTNnRsQUJ0cU9MZlIzaFhyN3lKWTdkUWRLekFEWmZySk1rcHRONjd5dEY5QVFSR3NEdThuOC8vY0E2d21ZYVNmakwiLCJtYWMiOiIzODFmMzM3ZTg2NmE1MjQ0NzFmMjM5MGU5MTNjOGJmMjA5YTg4ODE3NmQyY2M4NjgwN2QzMDIyN2QxNTBlYzM2IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkdCdk1DWWVvbjNKZkRta2wyUmZ5MWc9PSIsInZhbHVlIjoicGNHWnJBa0FMbyswMkRuMnZNS3Q2MStqcVBieXdWSlZ5REpkUHJsaU1sK2xVT0I3QjBuTHpwZWFHT1BQa3NrVjMrcHRVaFpoODJGTTZMQVhOUCtMOEpLaXYxQXREYzNNOE9zejUxQldYZlQxZ3FsZysvUXArcVNPYnRIa3hoSDEiLCJtYWMiOiJhNzZlOWFjZmVmOGFiNzczYWFiZGQwZDE4YjI2YWRkNDQwNDlhZGUzNWNmZjZlZjJlNjEwZjBmMzkwMGQ1YTIwIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:48 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:48 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImtWTnNOck42ZmM2alZ6cmk3V3JIVWc9PSIsInZhbHVlIjoiWHNrNEt2M1FJd3JUbHVSTVE3YjJLZHBXSGZmVHlzdFp3dGV3RUI0UzN4aGRlRmkzUngxdWdQdUYxYTJ0V0lBVGVXNDJHaDR6bXRNY0JlSFdpK0YxeU03NWdsdkJrMXFjMDR1ZGFsR3czeFV5aTlCOGpYUXN6ZDllekttcm9BVzgiLCJtYWMiOiJiNjU0YzM5ZjlhZDhlY2QwYzZjZTEzZGU5ODM5NmYwY2M5NWU4ZTNhMjU5MjJiODJhNmIxY2U4ZWU3OWFmYmI2IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6Ikx0VDhRZFZpb3NxcTgvckFkOXg1R0E9PSIsInZhbHVlIjoiNitpZUxtT2NDVVVnQkw1c1IraXFtVFpPTEkwMjI5bEZDVTRjLzV1azJMVytyTzZ5aldjeEVuQWpHVk9ZNjRudkVtWGsxdlc2Q3IrNjZhajdRSEtmdCtjZnQyb3lQSklEUFFzMndwNVlWbWMxbVFnbWxsNEhwS0UyN2Rub0c4VkkiLCJtYWMiOiJmNjM4NmQ0YzcyMDliZWVjNjM3MTY4OGE4ZmZlZWM2NDY2NGQ0NGNiYjg0ZjhjZTZhYmM3MDIwMjYzMDFiZjFkIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlRnWjE4VnJwWEJMTE80SUtxbllZbUE9PSIsInZhbHVlIjoib0NJb3liRGh6eHZ3ck0rU1lJdi8rZkxzSGlqbEl0ZmJ3aXF0R29QRWtoV3VXMHNXUm5vMEZCMkdYUWNlZjVuMXE4a2QxVXFCejBzaVloajNXVUp1ZVNYM0xVdHVvbVRIZXN4MEFVY1B1eXo3OVpLaVpZeUxpSzBYMG56Rm42YnoiLCJtYWMiOiJkNTJjNDUzYzhmZTA4NTMxNGYzNWY2MDQ4N2FjZWFlNGM3OWY4OGM0ZDgwMmMxNTQ5ODA1NDlmOTg1ZTk5MmRiIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImZkdTRUTDh2WGcwVXFrLzlBZmF1aVE9PSIsInZhbHVlIjoicncwb0tHbmlWSWpja2FRSFlUbG1ocDBBWDcyZmRCN1R5NDBrSmJETXdOaWhGV3pybnZuSTdHMXZ1MTRvdjFqSFlsSTBIOW5YaWcwVkt6bTJPN0diZTZOcDZhK1JiaGlrREVJYnhmMjFFUjRQL3l2TEVGS1dhZ1EzNXVkd1dydjYiLCJtYWMiOiIzMzU5ZjgwNWM2ZTRkOTQ4MjcxZDI2Zjg1ZjExNjEyYjFmY2JjMzQzNDMzNTljZGY3MTE5MWFjNzNmM2UyZjA5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjFSdjVZSVFHdEJYUENUdUwzMVE4NHc9PSIsInZhbHVlIjoiUFcvUnpHaE5FSENsYi9La2NpU2xpQXFmWFByRlQ2ZjZqTDhVYUc5eWhPUm1pbmRSLy9iai9BNjJLemNoUU5LeTBwc2VBUWdDRjdROHpzM0dFUFpsMWNjUHpBNjFCZC94c0IzazhFS1NGS3R0dTB3cXdETmpRN3RFYm9VdmQzSEQiLCJtYWMiOiIwNjE4ZjdiMzlkMzc4YTQwODU2NTVlNzc4NTU1ZWRiYWIzNTFhYzM2ZTZhOGExZDJjNzhjMDk0MjhkOTk1ZmIwIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlR6VnNud1JWcENldnlhbFNLV2kvMFE9PSIsInZhbHVlIjoiQ3J3ZCthRzFtNnJVMWR0Z1Z4TzhEOCsyYjdyVWtEUmFVUzVhSk8rUzJrQ1FOQmFIMUhqQkd0UFB0Q3Q1QkhGOWQ2U3lqR0dSdzBJNUZCalR0SmlyaURKZzE2NzY4SG0rRDJCcEV2Y2pvMWN1cTlUYXNQMTQzTE4rMDRpOGF0UWkiLCJtYWMiOiJlMWIwZTA2ZTE5ZjAxMjYyODAzYzYzMTkyNzRhY2UyN2Q5MzdjODkxY2U5ZTIzZjRiNmM5Y2JmMGU3ZWZjYjljIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjZCZUZlTVVFUS8xZDJNWHpNM3E3Mmc9PSIsInZhbHVlIjoiTlhPd040blgyYXJXV2VHM09IdDBCL1dURVRmaW12TisxakpxRWttWGlrOGc1VHJ6am1NS0pSUTlKSTB1Z3g0MTgyWkptUzQyV2tNRWloaUhYbXBjaUE3Z3VxaVdzZVQyc1RFNythRkR2d1ZCa0liME9Tc2VsZFUzdXAyS0Q4NWsiLCJtYWMiOiJiNWVjMjljZDA2NTA1ZGJjYjE5NTBkNTdiOTk3M2Y4NWM5ZDNlNDE5MTg0ZGRkNmI2YWI0NGY5NDM3NGFiNWNlIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkI2bGYzbENtRkxSb1ZJVHF5SzY1Mnc9PSIsInZhbHVlIjoiRlMwQkpHbVJ4aktUcExHemRJL21CWlZCSEk5QUxMR2JtTWdTSEd2MnpxOWNoYktmQ1J2OTVDdm9tcGh0UHROaFFmVExvWUFoQ0N2NGlXaGJVMzRaakFzV0t4bjZYUCtmaWxRQjJaRG1ERHFQZGovQXBuZlZNK0dOUXpuTk01L0IiLCJtYWMiOiJmYTJlNWUwNTZiZTA1MTNjYjRhOWFkMDU5NmU0NTYzODdlMGExMWVlMzk4YTZmM2IwMTNiNjEyOTA4NmU5MWVkIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InhTbS9BS2lKTzIvL0ZrdmQ3TTFOcnc9PSIsInZhbHVlIjoibXlJZHpOaEZZZ1ZYWDN6QTZtVWN0RkcxcjdWVEVFdE5OQXFYSzVvUDArQzdNVGVKOFF0KzNNTVN3QnMrejJ2YVdGSWxEbEtoWHV6V3NnZ05pVVNZVFN0TjV6VndZdzA1dm9xWVNqd0ordkdqVTA1Ry9Uak9SS3VBN0NqSHRrSUoiLCJtYWMiOiJkMTgxODQ4NWZhZDkxYmM2Y2M5ODM5M2M3ZWJiZWYzMjlmM2M0YWE4OGUzNjlmZjdlMTEyMjI1YThhNjhkMGUwIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImpIQWFUSWdtM3RKdHlEQlFDMy9YVlE9PSIsInZhbHVlIjoiU0ozZTFiN3VZNENhZUN1aFRWK0llOXFBTkNja2Z0NncwR3BIbGV6RkREMXMzdDRaNFc5R0k3bzF6THhqZ3B2SmJLNWlOQUpDSVdtQzhTSHN0a3RKdGxyM0lpYTFHMnVXaGtWQUkzeWRoVjdKalNheHhxTmJhdHp1L0ZoNHJWeWsiLCJtYWMiOiJkODk0MzJjMzFjYzIxMTU5MjQwOWJhMTU3ZjJhNjY5MTRiNjA0ZjQ5ZjgxODc0NGY2MDRlNDY3MDQxYWUzMDY5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InlNaWtBSDg1V2dXbU5tVWFONjRyRHc9PSIsInZhbHVlIjoiVWlnWmJTT1NkV3R0dDloMS9PY1lIRThMNE9pQnpFeHdEcVVSdFhza3lUMmZSZkRLSmN3aU8yZkJHSEhGRmtNZGw1WmtuZ0k5ZjlrU2lRV05JVkNpUFY4dGpTRzFOeGFMWDFyd2NPbEkyVm9LYXhOQ2k2elhETmZ6QWF0ZHMxaXAiLCJtYWMiOiIyNmRmMzcyOGU2MDUwZGRlMTk4MjYyNTViNmZiYTljYzVmNTUzN2YwZjc4MTgxMmIyMWI2NGZjMDNkZWNmMWJiIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjU5NkFyNkNnMkdiSE1EU2lXdGljdnc9PSIsInZhbHVlIjoiOFB6VDc1eWVVYmtEM1VyR2paMkNLOGRGdjZBOFduUXQzNUJBVFBhQ3lDREJmMDVNcnBkK3JXb2NEQnhraWlYdFdZVzVESlQvWWdyd09oZGRJY1ptNzJId2FHeDkxcXg5bjR1ekRDeEFQOW9Yci94QkZ3bVlaYUFtZEdKMEhNWlciLCJtYWMiOiJiZjAxYTAxZTYyYjVhYjAwOGE5MWMyNzFjMWEzNTYyOGViMDhmZWYxM2UzYzZhMzQyOTlhN2QyZTEzYmFmYWM1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjlacmNVc3Y2cUJMYmtzbnM4MDMwSmc9PSIsInZhbHVlIjoiUzJBNGFwTXkxL2VjenB1S3I5SmJIaDlhWm96OTFKNWdja1VKTE1lNjJ3N3BZT1FuMHBQM1JIOUVRS01iYVQ4dVRIV2FNSjVmbE51enpTMDcxL2hsM0xudHhuaitGSVdFQld3aGM0cXFGbzVhWEVyUWp6RWJPVkU0d0JxNFYrOC8iLCJtYWMiOiJhZGIxZWE4M2JlZDQzN2YzZWM4ODU3MWQxMDFlMWIyOWRjZTJiYjI0NDI3YjI3M2VhMWExOWUzODU4OTAzNWUzIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImYzak9PQ1JGVjY2akUwNzRodkw3QXc9PSIsInZhbHVlIjoiSDN1TnpkQ3VMenFPRjVqM2VXTlZab2MvRUh2RXFFNEF0cVl3TEl0SU9VMitNdDVVV0ZTOEFUUlVuN2RzV0tCc25EdDRndTNpdG9CZW5aakVCUmpVbXdaV1ZxYlZLanVjWlFUZ2V6bm94VGo1YWs2VitkeWo0RkhwOFdyd2l1SlgiLCJtYWMiOiJiYTJhZGMyOTNiODcyNmZjYjg5MWZkOTlkZWY2NGJlZDk4NzFiZDdjOGRiOTQxOTFmY2EyODIzNjhhZWVhODI4IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Ii80NWFLUlBHdjJVUnFBU0J4d3lZL3c9PSIsInZhbHVlIjoiaE5kYWh4R2RqbjNHOU1PdW56WGFqaEI2ZXhRaDI3WmN1aEdwQlR4YStJYWVtWk5zdVlxZmgvWTNocmdMR3g5QWJid1Zhbk5vLzdhRzNlUWw0akJmR3o2TW9XQk51M3llajlESUZaUCsrdS85NUhxWlhzZHdta0RlcHVTVWN0Z20iLCJtYWMiOiI5ODdiMmM1ZDViY2E4YjRmOTM2YWFmNWM2NWJiMGNmZjZjM2NiZDE5NWEzOTY1YzhkMTU2MDAwOWRiYWZiMDNhIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkhYcEYrbmZhc2M1d1pEcS9pbVRQTmc9PSIsInZhbHVlIjoiejFMRVVad3hWdFJ6TUpvc3BISWVZRnlEQU1xekp4WVpOV2JuMEdSc0hQd2FQdmVRQXNnODhWVmJUam56d0ZqaTY4aGFwd3RzV2JyMVJJTlc0UXhhRzdOYnVqQzRFVThaYkRXUmFiem9IWUxmKzBBclcvenRjSk5DRVFFTHJmM0oiLCJtYWMiOiJjODhkMGVjNzEyMTc3Mzg1YzkxNjIyY2FhY2YzODQ3M2RkOGY0ZGI3YmJhOTg3NTQ1MTc0M2U1ZTY0MmMyZTNhIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:49 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:49 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImJzUVFGc0tTa3VacS9BREZ0Z0pDc3c9PSIsInZhbHVlIjoiSnRxUktUeEpVREcxUWF1V2lMUlI2Yjk3VGoweUlYMUwzOWY4SHAzUitNcGNCcjVLcWwwOVhadjdvVVhVampJenQyWXlqL2xHTzdPdDBiMjhMNGxMUmN4RFdNUE5lcDFRUWp3NE1HTGkyT21tbW02R1FXSlhMMzFXRk9jYW9yeFIiLCJtYWMiOiI3M2U5NWFkNWU4Nzc1NjQzN2E0ZWVkZDE1MzBmZmZkNDUzMzU1N2I2ODdmM2ZlNjk3MWYzNGJkNzU1Zjc0MWY2IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkhabndYVXJiWW5QUEhBMUlBdTB6dWc9PSIsInZhbHVlIjoiZDg1T0VrWE4xY1UxMjZrRlFyMGRyZEpqYnlHSjE1dEZNQ2pzZUdCaFgycW5zLzZDeHZ4eFI0OEwzMGRyVHd3UXl1MStjNk0rYzZhK3F5V2J4NVVoYmxHQlRlM0pFNEJCUFdEWW1PVWQ5Qno0UmlmKzhZNXJRWEYva1lkUk9QQ3MiLCJtYWMiOiIxNTA2YTI5NTlkYTBjYTUzZDg1MzdhZjE4ZGVlYjQ2OWM0MDE2OWU3MDFiMjgyMGFjMzZhZDMwYTliYjgyY2UxIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlB3WE9qRmdydzJ1SGxjZkZDM3NIbkE9PSIsInZhbHVlIjoid0JoY3ZLRVJUTmNYRk1keC9GcHAyMHo4N2dMK2xob2hoU3AyamcrTFJqRWlXb2FKbmxjY2VSU21zWE9saldrUGp6ZU1sTXEraVRuY2Z2YjZRR243VkNveEJ2a0dVK1ZJUmk1Tk5oRFJCczkrbmFmbWtvZFlXWUt3LzFpek1hVmQiLCJtYWMiOiIxYjFjYjdmZmFmZjc3Y2FlMjU1MjAyNDBhYWQ5NDVkY2NjNTE0NDE0ODUzNDMxY2RhMjlhYjc1NjUyZTdlNTk3IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlJrc1Yxbnp0c09DcnRCcVNEQ0dTVHc9PSIsInZhbHVlIjoiZVRTR2FMSDBONXFEVm9xbGlLT0k3UGU1SEpYSlhmRU1YaTF6QkwwK0hkeCtUV2thekJkRnAyLzRXQlVBZHdKTUtQN1JsRUoyUlpobUQxODBhNXBJMTZlNU1jcFpCeWdSMit4Mzh4QUxHZGljZU9Wd01Yd3hnSEZweS9HNEwxa3IiLCJtYWMiOiI4NWZjMzA0ZDY2Y2ZhYTUxNmJhNzQ1ZjcwNTZmMTlmZTg4YmY5Nzk3ZGNmM2Y5ZjQ1OTkyNjhiYjQzZTM1Mzg1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjN5cFBKK1k3RzBRU2NMK3dTeEgrdEE9PSIsInZhbHVlIjoiQTRuc2JrOGM5Wi9GUzJHR0Q5aTRVZjVWQndiZXBNZDlGeWxlUGt2eDRqVlNhNDdKbHljMjdXYmdMUExHREtOcVowRktmUzVxWUczcmRWd1lFbWVaTnJFTnQ0T2dMK3pyNjJIUFByVExrT3dYT25HeWp3dDcrOWRmZ2R1UHpqYTUiLCJtYWMiOiIyNDdjZGYzNjcxMTVhNzQ4NjFlNTQwOTY0ZmU0OGI1YzQwMmU2YzhlYzVjZDUzZDc1NDU2YmIzNjNiNzcwYWRmIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6Im44MTVpNmxZSUdweUg3SXhSZTFBcWc9PSIsInZhbHVlIjoic044cUxtWDZJdVgyL0pTZjZYVUVndDBIT3I3VjR5N1BMUVNKeENTZk40dUNtMlExbjFGdlhMRTVlQi9YRVRyTTVFT09KSmZabkJKYzdvZHdyS05pM0ZqUkVzaWcxVDhpZWlZYWtGdVMyMVg3ODRUTG41WDBkK3ZDQnhwVUxneXUiLCJtYWMiOiJmMmMxYmE2YjUwYjUwNGMyNDM5MDc1MGYyNDBjZjdiMmUzYmFiMTUyMjAxM2NiZGE4YTU1NzhhOWM0YjVhNWNiIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Ijg4Mm9UblkyeGlYQUVEd3p1TGVZTXc9PSIsInZhbHVlIjoiRmJld3B6OWVWaVZrNjhnQVdXNGtIejBPSm9jNVVXdWFLUkwra3lSRmVPeXA4VWJiYU1RTTdzMXBnY2JXSEZiNkE4QXgzZW03OXBvYmNDNVk4RUgxMDhyS0NJK0R0MU9NVUhSdXhxVDd4cVBvN3J4UTNiV1NDbGl6cWhFVnhNZTkiLCJtYWMiOiI0YjRhYzYyZGU0YjlhNzEzMDVmMWY2OWUyOGIwODk5OTUxMzk0OWY1Yzk0YTBmMTJmOTUyZmUwZjhjODY3MzZjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6InNpSkpwc2I5alZyaUpMbVozTVo1WEE9PSIsInZhbHVlIjoiYkdMZHR2YnNuOVNuNlhEZEFUTDVrSjBUaEQzVVE1ZVFIMlhOandYdkhmRDIyZTJRdXppeG9JYWtkbUNRWWpRclVFMjM3bktGcEVsUGYwMlBYTHA0YVlnQkNlbGNuQjYwUnRyVm5nVjc0YmVuVjZNTTV2V1NaNkFrMUZiOU9jZjciLCJtYWMiOiJjMmRiZTVlMDM4MjA3YTdmMDI1YzI5M2Q2YTJkNmRhYTFiMzg4OTMzODQyMzkyNGIyODYzNDQ3NjYzODMzNTIwIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkRENFBSSkJlSlFKeThDV28rYjdOU3c9PSIsInZhbHVlIjoibTNCYjBZS2U5R0NWU0kxdE1qUE9vUVJzZkVDVVhibmZtK2tLWjF0Q1B3MUt0djZtYXpBMXNiczBKZXc4cGFscmx3NTJGMWMrT2hYZHRUOXlvMno0eXRLZVJXa1hCd1NrZUVQcTl5eFIrTmVzeWlVM0xQdCt0SUF3NFJ3UFNkMDYiLCJtYWMiOiJmMjFjNDY4N2RjNTk2NzQ3NmE3YWFhNWQ5NDRmMjEyZDY2YzdiNDlhZGVlZDYyMDRiMTQ1M2ExZmQxYmZjMzg1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkF1NHJPOFNoUjFJVmR2Z240MFFQQUE9PSIsInZhbHVlIjoiT2F4U1dONVNrMVVBM0FWRGk3anYydytnWnlmRWZITnFQdHl1NnFsZDZ4UzJkRzZlRFdMcHFGRlRwYldGRlhOaXBkNzZoMEpmMzlpQWt6c0dCblc3ZWFseFJDYXlvbWthdE1mWkp1THdyUW50ZTdnTlp1eEk1M21NcHZaRGNFYnIiLCJtYWMiOiI2ZDBkZDE2Y2YwY2EyYmRjNTc1ZjY2MDdiYWFlZWRjNTc5NjFiNjk3NjkxM2JlYTVjZGY4MzgxMjQxMjliMTIzIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InVlQVcyZEJJWkU0T2ttc1dCVmFoRXc9PSIsInZhbHVlIjoiSUdnTytiMmlkaE05OUpSZWFJNFBpYmJpak9jVXZNdWRoOHZUOXBmRklVQkdhYTBUT04rMHUzTmQ2SlFRamhKNkdrWDNaOFU5Q2JuLy84V0ZKYmlRMnJ2V3paMk15R25Hc01XQzJqSzkyM2xuY1IreUVRdGpvRFZGTjF3cmhNMkkiLCJtYWMiOiI2NDEzNjk2YjgyN2UyNzQ5NGJhOWExYzg5ZWIyMDBkYjE1MDMwNWY3YzFjNmNkY2JmMmYxNGE0MGZkNDQ5NmU5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6InQzTVFmZWpQajdXMFhpL0xQdjlPelE9PSIsInZhbHVlIjoiYzdxUjZZbE5wcTdxWXVENEU5UFNlM3VhbStKMnd2dVRFczhwT21rdDQ5bktDN212ZUxKNEVhVXBUMWw0ekhpN3JDZXArMUNoSzBJZTBQY3FBb0RselpLY1NpTTJyekxaV3JvNm9tcGVwby9IeFUzTkw3VUdFMXZ6NVVtbnprNkEiLCJtYWMiOiI5YzJmM2M2ZTZiOTE4Y2Y1ZjJiNzM4ZTM2MGQ4ZWM2ZWEwZTI2YzJkY2VmZDZjOWFhMzlhNjE0YzJmN2U0MjU5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImIzbUVEOVMrWmZFL1hwcUZwMnFDUWc9PSIsInZhbHVlIjoia29wWHRKd1VHanJOZ1Y3anVETm1KRkFLSzN1Y3RFUHBXNXFGWVEwVDNVZmNqTUVVWFdKaHNObk9WeHNpTFc0V1p1d1psd050azRWd09rb29VbkRNejQ5dVlMRk1UMHdaaWNlTEFrT05XMmdDVU9xWlo0azJHQmNjdFhYRW42YjMiLCJtYWMiOiJhZGE2YjgzMThmNmRlMzBiOWQ1Yzk0OTk1NDg0M2ZmZGM4Y2FlZjFiNzFhOWFhODU5ZGU0NGFlNzJiNGViMTFiIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkdDcXNnbEVGN1N6VUxtaC80Mzl3TXc9PSIsInZhbHVlIjoiY2lFK3RUZmtUdmorcjFrL3JXb3NlYnNlbVF1b0VsL0lITlAxZFR6N2VEc1E5SEZyRmd0UGloU3lweU9YcVIxS2dEUGdzM1VRQmZQZEFMdG1BclU0Nzl5VnZzQjFhUEZVV3FvRXp5N1gvaGlISXVqenI3OUNsY0xwWTdmMCs4ZHMiLCJtYWMiOiJlNGE3ZTAwZWU5ZGI5YjQyMTQyMTZlYjE0MWJmMWY2NDM3NjkyNzMxM2U3OGFkNjBiM2E5NWZjYmU1OTMzM2I5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InRraVNXd3ZUekYzZGYvenhjM3ZnV1E9PSIsInZhbHVlIjoiZEFUejk4ODJMTUtGTWw1ekM1N0lNaWFwbU1GeHkrT1ZCakhoK0swT2d5NTY5dlp3MnV3VitoMjVBT2d2Sm05d3N0YjY0UUpPWGF4YlhYaXBNbTVyNXBkc1RwTmVLK0RHWldUR3MwZlY4eGJZOFVoL3MwTE42bWFPYmRaSTlFRzciLCJtYWMiOiIwNzVhODczNzQyYjQzNmNjY2ZmNDhkZDUwNDllMDE3OGQ5NDBmZjUzMTIxNjEwNWRlNDcxZTY4NTgwMjIzNTJjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6InRkSGFBL2xQZTgwWmRjOHhxR1AwZGc9PSIsInZhbHVlIjoidUk5T2dOOERzbkgvbjR3ZGhCbGViQmp1VnlJNjNUQXFoV1JuQ01iNEVUOVJwWVpBeGlEUmdiTTA3ZmRQVndKb3hhemVYNHRrSTJjc2FzMG8va0p3c2VvaFZiZTd4SjFabmk1SW0yN3IxS0Z4Nis0cjJ6MVoxVkkyUWZzQjE0N3UiLCJtYWMiOiJlNWFlNzJjMjA5MTdkODM5NTc3NThmOWQ0NGY0MTk2ZTA3ZTM0ZjdlYzVhNGM3M2U3MDg1MTExZDAxMjc0MmZmIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlVYL2tZK2FDd1lBYUhqaGZrdkZreGc9PSIsInZhbHVlIjoiWjZNMGdHWjVkbnU3cWFFLyt5S3FOeXNNdGVJR2lFYXl0eUQ3SWVydmNIZWxrUFdTYmNmWW9taEU5T25jNHVIODBjRXkzRzNpYzBqWlRPK0U5SmFSK1M5TkYzWWdmTG5XTVRxVUUyRXRUSDlaeFV2SExmVkVVbDRDTllFVlpWS3giLCJtYWMiOiIxYzcyOTViZmE1MDU2YmUzYmQzMDBiMDNmZGNiYzEwZjk1Nzk4MmVkYWUwZjQzZGVjODUwNDIzNzU3NmM3MDRjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkIxL1NtMHgrWkRmVFI1R1RQMCsyZHc9PSIsInZhbHVlIjoiaGpUTjlleVErNzBjS3dsSk1wZmV6Z21rMHZrRU42RUN6eTV6ZGxWUnNZYW9pY2lDSnoxWnozbDJ5OU9hZWZhdUlqOWdJZEY0clk4Zm12ektGVDVHTkdNT3pVaEpTbSt2Z0pzS3o2YjBGdFpaVzVPZ215UXdqNE8zcHFtbXdXSDUiLCJtYWMiOiI4MWE3ZmExOWY0MWViMzhlYWVhMTE0Y2QyYTQ3YjllY2U4NmMxM2Y1ZTgxMTA0YTNiNTViY2Q1NmM5N2JlNTFkIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:50 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:50 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImV4Rk0xb1JROGpla3liZ3VOTklRV2c9PSIsInZhbHVlIjoicXlQTHpYL3k1ZnpuRlVWeklWQ201dHRCQVpWQjJneS80dTAraFpPWUhzNjF2c2NGZWdIOC9oeXd0UTBJTjBrS01YZHIyT3dpZFlFMklUdTNabmtmVURtTnQrTGhTMGxCRWdDUnFUZlBMQ3EvMlhBUm5JYWNxeHBCMWdPY3NGZWciLCJtYWMiOiJjNGNlZjQ0OThiNTdjMjkwNjVjNGYxOGM5MWEyNGUwYzQxZTQ5MDE4YzhjYmM1M2UyNmQwNjIwNzRkMGI3Mjc2IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlJzRUJ6aHQrc3ZhNzltVVgweVVYamc9PSIsInZhbHVlIjoiTjJWSVQxZnhtSHNuS0pHSGNDNUdUOXhsRnh2THJWbUlyQ21yb1VUaE5ncEFYZXNlNzJ6RFQwY0I1Vzc0OVdYSENoSHRlK3RVNlZPS2h4YlpxZDYyVW9LKzNFUGVHVkg2Mys1aVZVVDhodUtRaEFoQ3NXc0tENXNrNWRvMjE3dG8iLCJtYWMiOiI4YzlhYjFhMGFiNTQxNmJlZmNkY2YwODcyNjViZjFkNzg4NjM0YmI3NDMzNDJhN2I1Mzk1ZjRhN2RlOGZiOGM0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InRoZWJkY0tEajhjN1RQcG5WWWlIMWc9PSIsInZhbHVlIjoiSEhjanRBV0ZNWjJUK0svOXJiQnUrNzNqV3BhVjNlc3huWVJ5QWE4VHhWTmJQRGhUWHlGc0JMeW5Kd0VpZGIvK05FWjRtTjFORTgvNVQyZ0JnNlpLMFJDcTBFSEtnSVVBYWpKOStGQVZFUHpINStubHNsc1hZTkZvckk4L0VTaVIiLCJtYWMiOiIwYzViZDBmY2IzMzZhZThlMGFlYTUyZTZkZjBhNjc4MDk4MGQ4MTZhMDNkZTRlYzNjOTI0ZDg2ZDE3YzExNzBiIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjZVSzVSWVJIVXBJMHQwbVllRFRUT1E9PSIsInZhbHVlIjoibjFRR2kvSkxLY0I5T0NQVnFQMzhHakdwbFhPcWsxZ3NQUitld2xRMTNnd29kVXN3UUhQcWFZeEJ3RUpYT0FYdkwzRWxIZllLQkUyMVRIU0FUd3IxellUbmVadU9kMElmT3l3RHFpNm9WWlg4TEViN3ZLOVcyRGJWbFVCV1gxZm0iLCJtYWMiOiJkNzlhOTkyMjlhMmUyYjBjNjVjNTMwOGU3NGMyODY3NmQ1ODYyNThlMDc2NjA3MjIzODQ5NzU5ZWQ3MDk1OTQ1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InFOSVJSbEJzQzlscms0clRVK2xjYlE9PSIsInZhbHVlIjoiRG41a3I4U3RFVTF3ak9UTUZzQi9jQnJHT0tsb21kYzJkczIzdDRvMTVrbUllNThlMVVMVWR4WEJtdHFwOUg4a3phTnJxRWNvUHhiZUFPVUVPbFoxRGo3M0RyMCt6NXA4U3NKWDZPcmk4RHU0RS9QWkhBSEkrcmt0YllZRjBEN1YiLCJtYWMiOiJmNzVjZGFhMWZhYzUwYjk1MjE0YWUwMzdhMGNlZDczNGU5M2Y1NmY4NWEyOWEwYThmMTBkMTg3ZjM1YTIxYzU0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjVXa3VHSUNITzAzMTMvbU1lOFBmU0E9PSIsInZhbHVlIjoiSTFva1VpSzZtUDJmUmFBaWo3aGsySmhUQ0tzVDBReVhyQWZpME9hekF6QVoweU5mUVdYM1dVWVVwb3U5czJoNFN6cGlzVGllamZvbjQvMC9OZXNpem90dmprRkNUUlY4TDZHRkFyVlJSNGpUVzVZSEU1R2RENk41K1NibnB3K20iLCJtYWMiOiIxZDQyNmY5MDQ4MzM2ODY5ZmViZmRlYjhkNWY5MDdhYWU2Y2JiYWJjODIzOWZkNDhlNzI0M2FjZjQyYTY3ZTQ1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlFpeEZBTnljcGlrUW1KMGFtYzFnSWc9PSIsInZhbHVlIjoiQjNBbzRBeVVCbHJYQkNtekZ0aTBYSjkxSElKSDFVM0RLQUQ2Z1gxZzlSUDNMOS9HeEd1c2lFSzFrbklRVUtFOTV4am5WbXBDY2J2TXNpbnNBTXI5bGhncVZIcWZOc0RHZTV1b0JKa0FEc3k4MzFoakhrNDV3a3duS3pSRWgxWHIiLCJtYWMiOiJhZTQ3YmEwZTNlODc1YWU0ZGE5M2I1ZWZlNDU0YTY0YWQ5NjkyNGY4ZTNkYjg1MDE1ZjE0NzlhM2UyYzQ4MzljIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjkzcURzTWU0WXY0MzNOK1pnVSsybmc9PSIsInZhbHVlIjoiOC9hUmFNeXFqL0VWcVVrZkg4Z2doUS9RZ0psY1VYcnowMjJMWmVtRGk3L1REU0hOaHhGZERydGZqNThicVlCUmNHV3A4ZnBGVXplK0wxeGFVanZlV3JqRHg3czllZkZLaEF6SGV4cFZxTEYvU2pwVTFZRHYyZHU5RXY3RWxDRU8iLCJtYWMiOiI1ODY1MThmNGI5Njc4OGEzZTQyM2YzOTk3Nzk1NTZmNjMyMWU3ZWUzODEzZTBlODRjMjk3ODZjNWVhYTUzYTRiIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkZqanNUMm1BckJoTitNU09jTGw0QXc9PSIsInZhbHVlIjoiSE9LdmF0dFhqU0wwRitTOVhLZFd6ZTA1RHdMVjZQRitBdEhqRk1BU1BFNUlaOVViVnV6Wjh5cUlwb2dGSzQ3TVhUSVlpYTJLdmVmZmJWQXk0dU9BYTNpNDIrL3FRczVOSThDMGF6VUloZTlTL3cwYkxNQjhhYWtsSEROaUJVZm4iLCJtYWMiOiJlM2MyODlkYTFkNDUzNjIzYjg4ODAwMzU2MmQzN2ZiOWUzNjBjZDI0MzNiY2I4MDJkNTBmNzRhZTQ2M2M1ZmM0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImtUUy9JVVpOTGF3b285MzNrenV3blE9PSIsInZhbHVlIjoiNmZsaW9od3dQekNJVkJwdk51WHpHZXJtREYwMW1mVm03RmxNZGprNTZCUXRrdzlkTmFHN2Uwb2taWnFGdy96dWtOa0FvZmVkejBQeXhMaXdmemZNSXlrd1I5eHhPL1ZTSjlYM1VjMTJuRkJ5YzNGKy9UbmltNUExbWZFbGd3ZEgiLCJtYWMiOiJhZjU1N2RiNTliOWU3MzdlNWE2N2Q2MDUwYTVlMGFkYTMzNjE5OGJiNTg5MzEzOGEzMjNiMDhmNzZlNjRmNTYxIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InpTdWdNYlVkT3AyUExoTVlKNDNYcFE9PSIsInZhbHVlIjoiYzM4VE9sbXliZ0xGOERKL3hpSml5YW5NdEtLQVJxMnJqcGU1ZFhzMVJVRCtXck5DSXNSZkdjdFhFYkVXYnlHcVlEYlNBbGZ5Yituck1RMk13dDFjWThmblpXT0llbFFpVEV1aGpJYlh3YUF0UW5HcG91TTZvRUNaYjM4YWE3YVgiLCJtYWMiOiI4MzQ2NTQxZTY0ZTg2NDBjMWIxMGUxZjRjYWRmMjljNjI0YjE3YTM0YjJkZjRhMzZkZDViOTg2Y2U4MTZhZmZjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6Ik5KL1QwS3hyejZsVmVNZVZnODZhWEE9PSIsInZhbHVlIjoiTWVIVHhiYUVmZUNpeWladlZvb1k5Vlhadk9NNklOVVRlLzYxeTBOcDN3eVIvZzVhUjZPWUR4dE9qQjZaUmVFUHFnZldpL2ZncWlha1JSb3ZheUYvdDVTV2ltc1I2M0xDeDhwYWVQTW91U281clJIZGdxV1JQZTJSMmRDZmMyclYiLCJtYWMiOiI5MTI0NzczYjJhYmFiYzViMmY5ZGRjY2UzNjI0NTRiNTliZmIyODkzNjdiZTllNTdmNzhlZWRiN2M0Mjk2MGY5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkRzaE4wTHgwMVV4ZjYzZHQza09FbHc9PSIsInZhbHVlIjoiQjdSb0kvblpiZStjS0NWRXZDdjRsQ3Nsb0pKRGdxdXpRbEpTMmFWQVIybFVuN1NjdTk4VVg4TTlHTlF3V1VZZGwyRnBzOEsxSk4xUGUxSENQa1huczU3NDV1U1VhNlZhN2ZsTmpQVm5ReTBSOU9BcXUveThEdXFHTFBsQzJVVG8iLCJtYWMiOiI0NjE2ZGNhODVhNjU4Zjg4MWU4MDYzNmYxN2UwNGYxNjlmN2U2ZTJiNjgyM2QyNTk0YWEzMTE4ZjcxOTY5NjMzIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6InF6dlVYeThoMGNXMXNkUjZJSmo5Z3c9PSIsInZhbHVlIjoiV1dWYlB0Q21KM3R3dk5sRVM3d0xDUXdsVzFCYThycHYzQ0cva3kvTEpleHQyOHpXdUpncXQyTGtHcUpSRFNHdzh3SVhaRlptcmZOWndCTW5pQS9EZGJNbFJyQWVLRCtPeGphN1dCOXYwZ0dBSENqQTRvTVlEbmp2ZFpJOVVhTVAiLCJtYWMiOiIzYmNhM2Q2NTZlNmNhMWNhNDA0MDQwYjEzMmU1ODZlNmE2NGNmMDE4MzQ2NzQwZWFmMGVlNjExYjc4YzcyYTg4IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImdZK2lBdWxxWlVKQ2I4cmtyQmQvOFE9PSIsInZhbHVlIjoiVUMvYno4QVhFUmxFb3AwMHBtdlRYS0JqNWhrLy80NXZFMk5zWU1YMWVxQUZVL1ZRbXpzRVFzQzJQTk5Qamk4S1N4elArYWJtdTN6ZkVleHZ4empwUU5HbCt3c3RQRU5WUGVZbXBIeHFLaS9UNnpNcjJ2SkJ4ZHRYWWZnZXA0MkYiLCJtYWMiOiI4MWQ0M2M4ZDQzNjNlMzVlMGZmYmMwYjE2ZDc5YjEwZWJmZTkzOTNiOWJkOWYzZWM3ODVhZWM5MmU3NmY5NTViIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImtvbDJneXROQ3E2alpEcExrRzVKQWc9PSIsInZhbHVlIjoieGlWS0ZGMjRHWHR2ZWZTRTdrcDBnSFpPZER0dUNGN3orb2NNRW10R3dmTXNXSjAySE9lNXZ2bVBFd1JXZzJ3dEFpTzMwOWZkTzZQZC9KL0R3Qkt2NWc4eWU4RXdyMHZEZnFOVzViV00yeEl3dnJreUFJZW1JajBRTEpWVEJDRXkiLCJtYWMiOiI2OTgyMzk3ZmY4OWYxODQ2OWM4YmM2NWJhYjdkNGUzMjAzNTc4NmQ0MzZlOTNkOTQzMmQ0OWNiMjM3NmZjZDdjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkwwL2RVK3NoU1g2bHpnNlU4amthaEE9PSIsInZhbHVlIjoiQkhDWkVWaTRCT2xWc3R3YTJFQTY2dEdUTFY2MUtDTTl1WENzd3VOeUdGZ0dkdkl3anJUenA4OStMWkFoT0RaVXkxa0xoT2l3MjNRR1pidUtPYWkxTG5rR0ZyKzcva2gzR0Y2N3k4b1hzOTA2MllZTWY4QzFjMnZSc2ROUTR5K3MiLCJtYWMiOiJmYTMzMWYwN2JkZGZlMjA4NGQyNGY1NGFiOGE4MDE1ZjkxNDgwYmUxNzJkMjc0NTlmYWQ3Y2VkYWM4ZWVmNjg4IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6Ik9CWFZoNDFkZHgvbzIvVUdBRTcxUFE9PSIsInZhbHVlIjoiOXBvUlArMXlkSXlILzVoM2JXSjlESjJWbVI1bFArNm1qcVJ6Ky9qWCtha0ZWRmN6TkMvZkpONDVIVzlLN29OcVpiZ2kwMnFOK21xWXd3VXB6RCtOVHZVNzlqd2FBbUhVWGEwUWZYa2U2MVN3LzdwSU5HTDQzZDFZR1l2NThNRngiLCJtYWMiOiIyNmVlOWIyODdiNDgwZDhhMmQyOTE5Zjc3MTNlY2FjMTAyZTk2YmM3NzQ2Njk4MGJkMmQ1NTVlZmJlYzdhODA4IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlN3K0hkTXdGVk10NVc0L1hGMkVLdEE9PSIsInZhbHVlIjoiUks1QU1qSUdPY2hFVUF6WndJQVFDTUVEcmhlbWcreE9KbUFtMkFLSzhkNWZITmlqTmFUTzg5elBldmxNeW4vd29LQnMveDJhdzVoVHNCaUc5U3hzdjA0cUdoL3RMUUw0VzAvQXVBaVhWcit3QzROY1FFckZ1RG14d0x4WGhOQmsiLCJtYWMiOiI3YzNjNGJlMzBlNzkyM2VhNDgxOWI3N2FlZTYyOWM2YWMyMzkyZWI2ZGVkNzNjZjM2ZmYyNjE4N2E0MWRjYTJhIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6InQ5bzZBeWVxTWgzMTJtS2ZWcW1Ec0E9PSIsInZhbHVlIjoiSXp1c0VhRC9MZS83cDh4eVFqeU8rbzltRTB1S2tOdk9Xamt5Z3piemd3QmF0bFdBM09iWEZjNEUxdWNOaFQ0QWQySGZZUml0ekdSbVVhZ2tnei91YjU4dVVsM0NKdHkzaUZXeWJ1dmg4bFFCbkQydUlNZE45NFVVZjJ3a0NYa20iLCJtYWMiOiJlNzM4ZGQ3ZGJiYzQxZDMzYTYyY2MyYzUwNWEyZmQ5OGZiMDUwMDk1MjkwODA3MjI4NjFlMmFkOTA1OTNjYTA4IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:51 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:51 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InNoeHpEc2VMQkpLaENvSVgwTlhBL1E9PSIsInZhbHVlIjoiQW51OHRIRW03YUpia082U1lseHdUb1AyaWxEWk9oWWZDVmZTWFVLK1ByRjl3ZXBoUUtoUEM5Q0tMMmdnbFBFdWNhRHJBamZYU3NvL1F4Ri94a3QyNjA4eElIc0ptaVRVeWNWalE1Wk1sSnhzcEozNE1qc2dxYmFsT2ZyVHRVdysiLCJtYWMiOiIzNDMwOWE4NzQxZmY2NjhiMTdkNzlkNWI0NjkyNGU2Y2JlMThmNGIzZTNkNmEyOGYyZDA3MWIyZTQ0MGYyZjI1IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImFOM1krSi91c2VnaS9NL3pHOUh2WUE9PSIsInZhbHVlIjoiWEs0VGIwc2VDL1JnK3BPWmliVlQzMElneHp3b0RmUE5oZWNjeHZqZXRaWkNsN1k4NFc3OEp6YW1pL0FxUkpaZkovQ2F4WE1kQnNZaC9qUmFpQTZXQmxSb050SVJLUitEQ1pwTmZlRnRuNmI3eEVjdDd5VzVSV2g0V0V3TzUzOVYiLCJtYWMiOiIxOWQ1MWMyMzZkMGZlZWYwZTc2ZTU4ODliYzIyOTdiMGRiODBkNzQ0MDcxZmUwYjI2NzJkODQ1ZTdhYTI3MWJjIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:52 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InhjOC84UklFVWo2ZG9zNXNlcldIRHc9PSIsInZhbHVlIjoibnRSczJmSW5oeDJtVEVKWGhYV3BQcWN2TEVRcndwUlBGeXlVa0UwbmdtZXRET0Vib2FpWGxxNUtvbnFyTVRPL1BvNkF3SzNzQzBnQk9jT0ZWNnZaaStUUmdrU1pvdlcrZ3FOWFFkZjU2dG5WaXpSbGR1eVQybTNXOXJYMEluOGciLCJtYWMiOiJjODdmMjY1ZGMwOTgzOGY1MjA2ZWMwMzRhYWJkYjA1MGQ3ZGMyNDA5ZGU2YmUzNzg4ZmQyYWJjNjYzMDRmMTg0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlY3enZsNUVrYkpDTEdEZnVGcmJjWVE9PSIsInZhbHVlIjoiUXI1Uzd0SVA1L25vRy96Y2ZCdmk4VFRzWGYvWGlZeFo2UjRtR1NWOGZRZzFOTko0UCtFOURObERaR09XVytOL2poSTk5RElIWm1DemJ6UTRSZERjc2ovK0daYU9teGVtSytmaTZZR1dFb1ZibzA0U0poNlMzeE1DTlJvbitOK0kiLCJtYWMiOiJiNmZlNmRmMWM2ZjE0YzBiMmYyMDE3NjQ5NDVhNWRhZGZmYTc4NTk3YjQ0NDUwZGM1YzVhYmE0ZWQzOTkxOWRlIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:52 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkV6OW1RaTRBaU52bVR3ZSt5TFRpa2c9PSIsInZhbHVlIjoiNmNqSjNKMllnQmNMYjB0SXBiOWh3Q1AxT2c4Snp1TDlUODFIR3ZTbzlPN2hzYU8zelY3K0FqaWsyeHpYWmNwYTBWOU1PSFpwY1NKUU1nQ3E4eXdBeHVoSldmTWM2U1V4M2k2bEJQWkUyR1hQWVVrQWVZUjBVd0U4dmtXTk5uZ0QiLCJtYWMiOiIwNWJhM2RmZTM3MWNmZWFjODdjZWViMzcxNTgyZGFlZThmNTcyNGNiZDMyN2ZkMDhhNGFlY2ZlODQ2ODY5YTQyIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IllJWXZpcU1jQW51bHl5MlVKV1E5MHc9PSIsInZhbHVlIjoiQWNYVXpQOStJMitzbnNlb0dBeVZlQUVqK0ZIa3A4QnZCSll6SlJFMU9ZL2M5Z002RFE4VU1XOU5GaGFHOWZsdHZua0lITkUvcHF2UjdPMHhnZ2xzcS9CRDl2RmZYckdkL0gzZ2Z0S0hxcDNka2lhZGdPKzkyVWJhRlk3WUt2dDAiLCJtYWMiOiI3Zjg4NWEyODRkYjk2YmEyNGRmOTJkMTExMDk3ZDU3ZDZjYjYzMjU2ZDQ2ODBlNWJjY2ZlYjUzYjI3MmIxZjU0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:52 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlBxQWZJbU9vQkFLUzRrQVRmZjdPUlE9PSIsInZhbHVlIjoiYWtnMlhuWG85WDAxcHowQW10V1d0UUtJdXlmRFA0L2lLM2lzeEdWM0MzbE9rRmRDUGRrUitCcmMxUTNjeEx0dWhHVC96bytVR0ZRLzBnTWlvQnp4bnU0d3J2VHJqcm5EZGxJMVI3Q1lyTE4zRms5S3lFbkJNckRBdlBrdUN3WWoiLCJtYWMiOiJmNzExNmJhZjcyZGNiOWVmNWNkZjRiMjY2OTgzNjc0NmFmNWJhZDk4ZWVkZmM5N2Y3NGNiNTljOWE5OGZjZWVhIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjhLWXdtaDh0c2szQkZQaFVwOWdiUkE9PSIsInZhbHVlIjoiSEVXMUtUT21kRGVyOTUvVzNtWm1vRDdkSFJOSU1ET09Ec2lrTnZjZEJRc245LzduVm14Yyt6M0dsSWJwZ0Z4eE1MM2FVZmkwZ0FkM1VhZ3lEdWxyVllpNXNTYmthTTdYaW1YNi9hcVI5VUtSdkludERrMTJvR1puNThoTFo5Sk8iLCJtYWMiOiI0ZjE1ZTg3ZjY4ZGYzZDk2YjdlODllM2IzZWVjMjAwNjM0MmFjM2ViMThmMWMxOTEwMzg2MTEzM2JkODUzMmM5IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:52 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6ImNxalF2MFBZZVVZR1AzK09TeXRIVGc9PSIsInZhbHVlIjoiY1IvYW14dW56V3dPU2lYTDhVN3dOMWNMOWhBS3hwcEg4c2VFZGVCeEhjSGEvUGxVQWozMmZFUlM1SDhwTnRMRU96RFhuVUltQ2lQRmdwRTNrbnBTLzMzc0o5WFYvVmwrSkZzb2xuYWRZS1pNWXFQaUN2SGxOUGEzQTQ1UlVMZDMiLCJtYWMiOiJiOTkxZjYwMDNiZDQ1MjkyZTUzOWE0ZTFjNWU0NmI4ODY4NjUwMzk0N2FlY2U3NWQwZjNmM2YyZDg0MTE0ZWRiIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjE0VXhHY1JHeVlVK2Z2aWNqUkNIRWc9PSIsInZhbHVlIjoiTzFTUWY5NGFwbWRseUhPRm1GQ2E2cVpLcDI4a2tVNmNXd2VDbThrNXFUdkEvcVQ3WWx1WXRVcldHMGpzdnFQNmJlR0pvaUdUc2JYazhQdmVMZ0FleHJOQVZaY3lPMGswWG5wVmZvR2g3MEtsaDZTamU5YUtFUVlzYzg1a0c5MGYiLCJtYWMiOiIyMGNiNDBjZWUwYmMxNTI4ZDRlODRjZDA2N2UzMzE5MmVlYjlhMjYwM2QxNGVkZDE1ZTAzNzI4ODE4ZmNiZjQ0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:52 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkVDMm5KR2NPbHlhS1RMcGs0MFE0V2c9PSIsInZhbHVlIjoiUVRYVmdBeUJQSU44ckhGZGloR0l2ZGlvbGFlVWZUVkxKTTdGVXJkQVpJTm16bEF0bEJRT0p6dDd1MFdiam9IRDVFL1VkcjEwVER6Z3pHTmVzVWdXaFo0b2x4emR2RTBKbDVSOUNHNFJYTWRIVHBpSEtrbWZqRXNDL1lnV2s3VTQiLCJtYWMiOiI1MmI0NWYwYmRiM2EyZGZjOTkwZmY2YjFmNDlkNjc0OTA1NGNiMzRlN2UzZDYxZWUzMDI0ZmU5YTllY2U2ZDc0IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IjRvaE40L1dXMjdNQnFYYS9PdkVVRkE9PSIsInZhbHVlIjoiTlg1QlY1ZFNpdEttSGRYaXFmaXNJK0RJcS9Odnh0ck5RRWpDZUQ4VjUyalhyZXFaaVdtV2JITGxQbHlFZGNGVkxkc3ltU3FUUTBMbkZrR2tNT1JLcDN5RU0vbDZaM1diK2Nib00zeU5OZWJTbXFRK08ybU10TDhLV2RSZjFFWlMiLCJtYWMiOiJmMzM3ZGEwNmIxMWRmNWFiODMxOWQ1NjA3NjkxYzg0MGQwNWYyNTM4NWE1N2Q1MGJkOWU1NWNhY2NlMjBhNWY2IiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 302 Found
+Date: Sun, 14 Dec 2025 03:41:52 GMT
+Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30
+X-Powered-By: PHP/8.0.30
+Cache-Control: no-cache, private
+Location: http://localhost/VIISION-SISTEMA/public/login
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjVtVUJSQTJVUHp2K2djUW5VeVhDSWc9PSIsInZhbHVlIjoiRTV5ZmMzQmZrODRIWm5IVXpDL2Q2QVpQQlNDVHZZM0xJTVZheHFIK0pGdGNwTFd2THNnbDVoNjhhVUlxWjhXTWVMbk0wMEt1YmdTUVJKbmRrcGdaUjhYQlhsajZaa3NPay9GUnJGNVJPY0tKV0oxZldmU1h5RGhlanFOTlczWFYiLCJtYWMiOiJjOTYyOGQ1MzZlOWMwZjU2ZTBjZGI0OGU0N2E1NzgzOTlhYmM3NDY1ZDhjZGE4MWRmNjVmM2JmOGEwOTk1OWEwIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImNXZlVpSndsU042ZE1ZQ0lXeEFNTGc9PSIsInZhbHVlIjoiTzZGZ0Z0T0ozL0d2SW5OemdpRmN2VDRQQk4zanpsdlRUSzVHSzhJNkRzalRpa3FjRWhFNzk0bnJQQjRRVU5mK2hxRDZ4RXZOcm1GNjVBTVlDRmtLU3BIZDlvdVArYkhndDkySDhJKzY0MFpEVVdYNlQxdVN0ZGFyRUh4SUxneXAiLCJtYWMiOiJmNDRkNjlhMzkwY2VjZGNkMzJiMDdhOGJhNjZmNzFkOWE2Y2I5ZGNlMjU3NjgwMWFiNDQxZTI0NDFhOTcxNGZmIiwidGFnIjoiIn0%3D; expires=Sun, 14-Dec-2025 05:41:52 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+

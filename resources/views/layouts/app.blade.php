@@ -211,9 +211,17 @@
         <div class="header">
             <h4 class="mb-0">@yield('page-title', 'Dashboard')</h4>
             <div class="d-flex align-items-center gap-3">
-                @yield('header-actions')
-                <i class="bi bi-person-circle" style="font-size: 28px; cursor: pointer;"></i>
-            </div>
+                    @yield('header-actions')
+                    @auth
+                        <form method="POST" action="{{ route('logout') }}" style="display:inline-block; margin-right:8px;">
+                            @csrf
+                            <button type="submit" class="btn btn-outline-light btn-sm" title="Cerrar sesión">
+                                <i class="bi bi-box-arrow-right"></i>
+                            </button>
+                        </form>
+                    @endauth
+                    <i class="bi bi-person-circle" style="font-size: 28px; cursor: pointer;"></i>
+                </div>
         </div>
 
         <!-- Content Area -->
