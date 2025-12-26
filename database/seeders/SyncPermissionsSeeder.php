@@ -24,7 +24,11 @@ class SyncPermissionsSeeder extends Seeder
             'ver-empleados',
             'ver-tiendas',
             'ver-almacenes',
+            'ver-transferencias',
+            'ver-reportes',
 
+            'gestionar-reportes',
+            'gestionar-transferencias',
             'gestionar-almacen',
             'gestionar-articulos',
             'gestionar-caja',
