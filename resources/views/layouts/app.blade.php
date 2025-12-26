@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +38,7 @@
             font-weight: bold;
             padding: 20px;
             text-align: center;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             margin-bottom: 20px;
         }
 
@@ -83,7 +84,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .content-area {
@@ -94,14 +95,14 @@
             background: white;
             border-radius: 10px;
             padding: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
             transition: transform 0.2s;
         }
 
         .metric-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         .metric-icon {
@@ -138,14 +139,14 @@
 
         .btn-modern:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         .table-modern {
             background: white;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .filter-card {
@@ -153,7 +154,7 @@
             border-radius: 10px;
             padding: 20px;
             margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .badge-status {
@@ -165,6 +166,7 @@
     </style>
     @stack('styles')
 </head>
+
 <body>
     <!-- Sidebar -->
     <div class="sidebar">
@@ -172,36 +174,61 @@
             <i class="bi bi-shop"></i> ModaExpress
         </div>
         <ul class="sidebar-menu">
-            <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
-                <i class="bi bi-speedometer2"></i> Dashboard
-            </a></li>
-            <li><a href="{{ route('inventario.index') }}" class="{{ request()->routeIs('inventario.*') ? 'active' : '' }}">
-                <i class="bi bi-box-seam"></i> Inventario
-            </a></li>
-            <li><a href="{{ route('cotizaciones.index') }}" class="{{ request()->routeIs('cotizaciones.*') ? 'active' : '' }}">
-                <i class="bi bi-clipboard"></i> Cotización
-            </a></li>
-            <li><a href="{{ route('caja.index') }}" class="{{ request()->routeIs('caja.*') ? 'active' : '' }}">
-                <i class="bi bi-cash-register"></i> Caja
-            </a></li>
-            <li><a href="{{ route('clientes.index') }}" class="{{ request()->routeIs('clientes.*') ? 'active' : '' }}">
-                <i class="bi bi-people"></i> Clientes
-            </a></li>
-            <li><a href="{{ route('empleados.index') }}" class="{{ request()->routeIs('empleados.*') ? 'active' : '' }}">
-                <i class="bi bi-person"></i> Empleados
-            </a></li>
-            <li><a href="{{ route('tiendas.index') }}" class="{{ request()->routeIs('tiendas.*') ? 'active' : '' }}">
-                <i class="bi bi-shop-window"></i> Tiendas
-            </a></li>
-            <li><a href="{{ route('almacenes.index') }}" class="{{ request()->routeIs('almacenes.*') ? 'active' : '' }}">
-                <i class="bi bi-building"></i> Almacenes
-            </a></li>
-            <li><a href="{{ route('transferencias.index') }}" class="{{ request()->routeIs('transferencias.*') ? 'active' : '' }}">
-                <i class="bi bi-arrow-left-right"></i> Transferencias
-            </a></li>
-            <li><a href="{{ route('reportes.index') }}" class="{{ request()->routeIs('reportes.*') ? 'active' : '' }}">
-                <i class="bi bi-graph-up"></i> Reportes
-            </a></li>
+            @can('ver-dashboard')
+                <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
+                        <i class="bi bi-speedometer2"></i> Dashboard
+                    </a></li>
+            @endcan
+            @can('ver-inventario')
+                <li><a href="{{ route('inventario.index') }}"
+                        class="{{ request()->routeIs('inventario.*') ? 'active' : '' }}">
+                        <i class="bi bi-box-seam"></i> Inventario
+                    </a></li>
+            @endcan
+            @can('ver-cotizaciones')
+                <li><a href="{{ route('cotizaciones.index') }}"
+                        class="{{ request()->routeIs('cotizaciones.*') ? 'active' : '' }}">
+                        <i class="bi bi-clipboard"></i> Cotización
+                    </a></li>
+            @endcan
+            @can('ver-caja')
+                <li><a href="{{ route('caja.index') }}" class="{{ request()->routeIs('caja.*') ? 'active' : '' }}">
+                        <i class="bi bi-cash-register"></i> Caja
+                    </a></li>
+            @endcan
+            @can('ver-clientes')
+                <li><a href="{{ route('clientes.index') }}" class="{{ request()->routeIs('clientes.*') ? 'active' : '' }}">
+                        <i class="bi bi-people"></i> Clientes
+                    </a></li>
+            @endcan
+            @can('ver-empleados')
+                <li><a href="{{ route('empleados.index') }}"
+                        class="{{ request()->routeIs('empleados.*') ? 'active' : '' }}">
+                        <i class="bi bi-person"></i> Empleados
+                    </a></li>
+            @endcan
+            @can('ver-tiendas')
+                <li><a href="{{ route('tiendas.index') }}" class="{{ request()->routeIs('tiendas.*') ? 'active' : '' }}">
+                        <i class="bi bi-shop-window"></i> Tiendas
+                    </a></li>
+            @endcan
+            @can('ver-almacenes')
+                <li><a href="{{ route('almacenes.index') }}"
+                        class="{{ request()->routeIs('almacenes.*') ? 'active' : '' }}">
+                        <i class="bi bi-building"></i> Almacenes
+                    </a></li>
+            @endcan
+            @can('ver-transferencias')
+                <li><a href="{{ route('transferencias.index') }}"
+                        class="{{ request()->routeIs('transferencias.*') ? 'active' : '' }}">
+                        <i class="bi bi-arrow-left-right"></i> Transferencias
+                    </a></li>
+            @endcan
+            @can('ver-reportes')
+                <li><a href="{{ route('reportes.index') }}" class="{{ request()->routeIs('reportes.*') ? 'active' : '' }}">
+                        <i class="bi bi-graph-up"></i> Reportes
+                    </a></li>
+            @endcan
         </ul>
     </div>
 
@@ -211,17 +238,17 @@
         <div class="header">
             <h4 class="mb-0">@yield('page-title', 'Dashboard')</h4>
             <div class="d-flex align-items-center gap-3">
-                    @yield('header-actions')
-                    @auth
-                        <form method="POST" action="{{ route('logout') }}" style="display:inline-block; margin-right:8px;">
-                            @csrf
-                            <button type="submit" class="btn btn-outline-light btn-sm" title="Cerrar sesión">
-                                <i class="bi bi-box-arrow-right"></i>
-                            </button>
-                        </form>
-                    @endauth
-                    <i class="bi bi-person-circle" style="font-size: 28px; cursor: pointer;"></i>
-                </div>
+                @yield('header-actions')
+                @auth
+                    <form method="POST" action="{{ route('logout') }}" style="display:inline-block; margin-right:8px;">
+                        @csrf
+                        <button type="submit" class="btn btn-outline-light btn-sm" title="Cerrar sesión">
+                            <i class="bi bi-box-arrow-right"></i>
+                        </button>
+                    </form>
+                @endauth
+                <i class="bi bi-person-circle" style="font-size: 28px; cursor: pointer;"></i>
+            </div>
         </div>
 
         <!-- Content Area -->
@@ -247,5 +274,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     @stack('scripts')
 </body>
-</html>
 
+</html>

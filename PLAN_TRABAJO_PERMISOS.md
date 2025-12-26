@@ -53,70 +53,70 @@
 ###   - ⏱️ **2 minutos**
 
 ---
-
-- [ ] **1.4 - Proteger ruta de transferencias**
-  - **Archivo:** `routes/web.php`
-  - **Línea:** 51-53
-  - **Acción:** Agregar middleware de permiso
-  - **Código actual:**
-    ```php
-    Route::get('/transferencias', function() {
-        return view('transferencias.index');
-    })->name('transferencias.index');
-    ```
-  - **Código corregido:**
-    ```php
-    Route::get('/transferencias', function() {
-        return view('transferencias.index');
-    })->name('transferencias.index')->middleware('permission:ver-transferencias');
-    ```
-  - ⏱️ **3 minutos**
-
----
-
-- [ ] **1.5 - Proteger ruta de reportes**
-  - **Archivo:** `routes/web.php`
-  - **Línea:** 56-57
-  - **Acción:** Agregar middleware de permiso
-  - **Código actual:**
-    ```php
-    Route::get('/reportes', [ReporteController::class, 'index'])->name('reportes.index');
-    ```
-  - **Código corregido:**
-    ```php
-    Route::get('/reportes', [ReporteController::class, 'index'])
-        ->name('reportes.index')
-        ->middleware('permission:ver-reportes');
-    ```
-  - ⏱️ **2 minutos**
+### (Terminado)
+### - [ ] **1.4 - Proteger ruta de transferencias**
+###   - **Archivo:** `routes/web.php`
+###   - **Línea:** 51-53
+###   - **Acción:** Agregar middleware de permiso
+###   - **Código actual:**
+###     ```php
+###     Route::get('/transferencias', function() {
+###         return view('transferencias.index');
+###     })->name('transferencias.index');
+###     ```
+###   - **Código corregido:**
+###     ```php
+###     Route::get('/transferencias', function() {
+###         return view('transferencias.index');
+###     })->name('transferencias.index')->middleware('permission:ver-transferencias');
+###     ```
+###   - ⏱️ **3 minutos**
 
 ---
-
-- [ ] **1.6 - Ejecutar seeder de sincronización**
-  - **Comando:**
-    ```bash
-    php artisan db:seed --class=SyncPermissionsSeeder
-    ```
-  - **Verificar:** Mensaje de confirmación sin errores
-  - ⏱️ **1 minuto**
-
----
-
-- [ ] **1.7 - Limpiar cache de permisos**
-  - **Comando:**
-    ```bash
-    php artisan permission:cache-reset
-    ```
-  - **Verificar:** Cache limpiada exitosamente
-  - ⏱️ **1 minuto**
+### (Terminado)
+### - [ ] **1.5 - Proteger ruta de reportes**
+###   - **Archivo:** `routes/web.php`
+###   - **Línea:** 56-57
+###   - **Acción:** Agregar middleware de permiso
+###   - **Código actual:**
+###     ```php
+###     Route::get('/reportes', [ReporteController::class, 'index'])->name('reportes.index');
+###     ```
+###   - **Código corregido:**
+###     ```php
+###     Route::get('/reportes', [ReporteController::class, 'index'])
+###         ->name('reportes.index')
+###         ->middleware('permission:ver-reportes');
+###     ```
+###   - ⏱️ **2 minutos**
 
 ---
+### (Terminado)
+### - [ ] **1.6 - Ejecutar seeder de sincronización**
+###   - **Comando:**
+###     ```bash
+###     php artisan db:seed --class=SyncPermissionsSeeder
+###     ```
+###   - **Verificar:** Mensaje de confirmación sin errores
+###   - ⏱️ **1 minuto**
 
-- [ ] **1.8 - Verificar rutas protegidas**
-  - **Acción:** Probar acceso sin permisos
-  - **Método:** Crear usuario de prueba sin permisos y acceder a `/transferencias` y `/reportes`
-  - **Resultado esperado:** Error 403 Forbidden
-  - ⏱️ **10 minutos**
+---
+### (Terminado)
+### - [ ] **1.7 - Limpiar cache de permisos**
+###   - **Comando:**
+###     ```bash
+###     php artisan permission:cache-reset
+###     ```
+###   - **Verificar:** Cache limpiada exitosamente
+###   - ⏱️ **1 minuto**
+
+---
+### (Terminado)
+### - [ ] **1.8 - Verificar rutas protegidas**
+###   - **Acción:** Probar acceso sin permisos
+###   - **Método:** Crear usuario de prueba sin permisos y acceder a `/transferencias` y `/reportes`
+###   - **Resultado esperado:** Error 403 Forbidden
+###   - ⏱️ **10 minutos**
 
 ---
 
@@ -126,168 +126,168 @@
 **Debe completarse:** HOY
 
 ### ✅ Tareas de Interface
+### (Terminado)
+### - [ ] **2.1 - Proteger opción Dashboard en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 175-177
+###   - **Acción:** Envolver con directiva `@can`
+###   - **Código actual:**
+###     ```blade
+###     <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
+###         <i class="bi bi-speedometer2"></i> Dashboard
+###     </a></li>
+###     ```
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-dashboard')
+###     <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
+###         <i class="bi bi-speedometer2"></i> Dashboard
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
 
-- [ ] **2.1 - Proteger opción Dashboard en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 175-177
-  - **Acción:** Envolver con directiva `@can`
-  - **Código actual:**
-    ```blade
-    <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
-        <i class="bi bi-speedometer2"></i> Dashboard
-    </a></li>
-    ```
-  - **Código corregido:**
-    ```blade
-    @can('ver-dashboard')
-    <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
-        <i class="bi bi-speedometer2"></i> Dashboard
-    </a></li>
-    @endcan
-    ```
+---
+### (Terminado)
+### - [ ] **2.2 - Proteger opción Inventario en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 178-180
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-inventario')
+###     <li><a href="{{ route('inventario.index') }}" class="{{ request()->routeIs('inventario.*') ? 'active' : '' }}">
+###         <i class="bi bi-box-seam"></i> Inventario
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado) 
+### - [ ] **2.3 - Proteger opción Cotización en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 181-183
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-cotizaciones')
+###     <li><a href="{{ route('cotizaciones.index') }}" class="{{ request()->routeIs('cotizaciones.*') ? 'active' : '' }}">
+###         <i class="bi bi-clipboard"></i> Cotización
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **2.4 - Proteger opción Caja en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 184-186
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-caja')
+###     <li><a href="{{ route('caja.index') }}" class="{{ request()->routeIs('caja.*') ? 'active' : '' }}">
+###         <i class="bi bi-cash-register"></i> Caja
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **2.5 - Proteger opción Clientes en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 187-189
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-clientes')
+###     <li><a href="{{ route('clientes.index') }}" class="{{ request()->routeIs('clientes.*') ? 'active' : '' }}">
+###         <i class="bi bi-people"></i> Clientes
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **2.6 - Proteger opción Empleados en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 190-192
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-empleados')
+###     <li><a href="{{ route('empleados.index') }}" class="{{ request()->routeIs('empleados.*') ? 'active' : '' }}">
+###         <i class="bi bi-person"></i> Empleados
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **2.7 - Proteger opción Tiendas en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 193-195
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-tiendas')
+###     <li><a href="{{ route('tiendas.index') }}" class="{{ request()->routeIs('tiendas.*') ? 'active' : '' }}">
+###         <i class="bi bi-shop-window"></i> Tiendas
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **2.8 - Proteger opción Almacenes en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 196-198
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-almacenes')
+###     <li><a href="{{ route('almacenes.index') }}" class="{{ request()->routeIs('almacenes.*') ? 'active' : '' }}">
+###         <i class="bi bi-building"></i> Almacenes
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **2.9 - Proteger opción Transferencias en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 199-201
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-transferencias')
+###     <li><a href="{{ route('transferencias.index') }}" class="{{ request()->routeIs('transferencias.*') ? 'active' : '' }}">
+###         <i class="bi bi-arrow-left-right"></i> Transferencias
+###     </a></li>
+###     @endcan
+###     ```
+###   - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **2.10 - Proteger opción Reportes en menú**
+###   - **Archivo:** `resources/views/layouts/app.blade.php`
+###   - **Línea:** 202-204
+###   - **Código corregido:**
+###     ```blade
+###     @can('ver-reportes')
+###     <li><a href="{{ route('reportes.index') }}" class="{{ request()->routeIs('reportes.*') ? 'active' : '' }}">
+###         <i class="bi bi-graph-up"></i> Reportes
+###     </a></li>
+###     @endcan
+###     ```
   - ⏱️ **2 minutos**
 
 ---
-
-- [ ] **2.2 - Proteger opción Inventario en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 178-180
-  - **Código corregido:**
-    ```blade
-    @can('ver-inventario')
-    <li><a href="{{ route('inventario.index') }}" class="{{ request()->routeIs('inventario.*') ? 'active' : '' }}">
-        <i class="bi bi-box-seam"></i> Inventario
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.3 - Proteger opción Cotización en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 181-183
-  - **Código corregido:**
-    ```blade
-    @can('ver-cotizaciones')
-    <li><a href="{{ route('cotizaciones.index') }}" class="{{ request()->routeIs('cotizaciones.*') ? 'active' : '' }}">
-        <i class="bi bi-clipboard"></i> Cotización
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.4 - Proteger opción Caja en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 184-186
-  - **Código corregido:**
-    ```blade
-    @can('ver-caja')
-    <li><a href="{{ route('caja.index') }}" class="{{ request()->routeIs('caja.*') ? 'active' : '' }}">
-        <i class="bi bi-cash-register"></i> Caja
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.5 - Proteger opción Clientes en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 187-189
-  - **Código corregido:**
-    ```blade
-    @can('ver-clientes')
-    <li><a href="{{ route('clientes.index') }}" class="{{ request()->routeIs('clientes.*') ? 'active' : '' }}">
-        <i class="bi bi-people"></i> Clientes
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.6 - Proteger opción Empleados en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 190-192
-  - **Código corregido:**
-    ```blade
-    @can('ver-empleados')
-    <li><a href="{{ route('empleados.index') }}" class="{{ request()->routeIs('empleados.*') ? 'active' : '' }}">
-        <i class="bi bi-person"></i> Empleados
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.7 - Proteger opción Tiendas en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 193-195
-  - **Código corregido:**
-    ```blade
-    @can('ver-tiendas')
-    <li><a href="{{ route('tiendas.index') }}" class="{{ request()->routeIs('tiendas.*') ? 'active' : '' }}">
-        <i class="bi bi-shop-window"></i> Tiendas
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.8 - Proteger opción Almacenes en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 196-198
-  - **Código corregido:**
-    ```blade
-    @can('ver-almacenes')
-    <li><a href="{{ route('almacenes.index') }}" class="{{ request()->routeIs('almacenes.*') ? 'active' : '' }}">
-        <i class="bi bi-building"></i> Almacenes
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.9 - Proteger opción Transferencias en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 199-201
-  - **Código corregido:**
-    ```blade
-    @can('ver-transferencias')
-    <li><a href="{{ route('transferencias.index') }}" class="{{ request()->routeIs('transferencias.*') ? 'active' : '' }}">
-        <i class="bi bi-arrow-left-right"></i> Transferencias
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.10 - Proteger opción Reportes en menú**
-  - **Archivo:** `resources/views/layouts/app.blade.php`
-  - **Línea:** 202-204
-  - **Código corregido:**
-    ```blade
-    @can('ver-reportes')
-    <li><a href="{{ route('reportes.index') }}" class="{{ request()->routeIs('reportes.*') ? 'active' : '' }}">
-        <i class="bi bi-graph-up"></i> Reportes
-    </a></li>
-    @endcan
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **2.11 - Verificar menú con diferentes roles**
-  - **Acción:** Login con Admin, Vendedor y Almacenista
-  - **Verificar:** Cada usuario solo ve sus opciones permitidas
-  - ⏱️ **15 minutos**
+### (Terminado)
+### - [ ] **2.11 - Verificar menú con diferentes roles**
+###   - **Acción:** Login con Admin, Vendedor y Almacenista
+###   - **Verificar:** Cada usuario solo ve sus opciones permitidas
+###   - ⏱️ **15 minutos**
 
 ---
 

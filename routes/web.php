@@ -54,5 +54,5 @@ Route::middleware(['auth'])->group(function () {
     })->name('transferencias.index')->middleware('permission:ver-transferencias');
 
     // Reportes
-    Route::get('/reportes', [ReporteController::class, 'index'])->name('reportes.index');
+    Route::get('/reportes', [ReporteController::class, 'index'])->name('reportes.index')->middleware('permission:ver-reportes');
 });

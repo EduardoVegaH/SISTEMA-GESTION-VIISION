@@ -6,13 +6,15 @@ use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 
-class RolesAndPermissionsSeeder extends Seeder{
-    public function run(){
-        app()[\Spatie\Permission\PermissionRegistrar::class]-> forgetCachedPermissions();
+class RolesAndPermissionsSeeder extends Seeder
+{
+    public function run()
+    {
+        app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
 
         // Crear los roles
         $roleAdmin = Role::firstOrCreate(['name' => 'Admin']);
-        $roleVendedor =Role::firstOrCreate(['name' => 'Vendedor']);
+        $roleVendedor = Role::firstOrCreate(['name' => 'Vendedor']);
         $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenistas']);
 
         // Crear los permisos
@@ -36,9 +38,13 @@ class RolesAndPermissionsSeeder extends Seeder{
         // El rol Vendedor tiene permisos especificos
         $roleVendedor->givePermissionTo([
             'ver-dashboard',
+            'ver-clientes',
             'gestionar-clientes',
+            'ver-cotizaciones',
+            'crear-cotizaciones',
             'gestionar-cotizaciones',
             'gestionar-pedidos',
+            'ver-caja',
         ]);
 
         // El rol Almacenista tiene permisos especificos
