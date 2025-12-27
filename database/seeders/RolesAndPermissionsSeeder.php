@@ -15,7 +15,7 @@ class RolesAndPermissionsSeeder extends Seeder
         // Crear los roles
         $roleAdmin = Role::firstOrCreate(['name' => 'Admin']);
         $roleVendedor = Role::firstOrCreate(['name' => 'Vendedor']);
-        $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenistas']);
+        $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenista']);
 
         // Crear los permisos
         Permission::firstOrCreate(['name' => 'ver-dashboard']);
@@ -49,9 +49,13 @@ class RolesAndPermissionsSeeder extends Seeder
 
         // El rol Almacenista tiene permisos especificos
         $roleAlmacenista->givePermissionTo([
+            'ver-almacenes',
             'gestionar-almacen',
             'gestionar-articulos',
+            'ver-inventario',
             'gestionar-inventario',
+            'ver-transferencias',
+            'gestionar-transferencias',
         ]);
     }
 }

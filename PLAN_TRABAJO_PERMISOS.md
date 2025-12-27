@@ -297,148 +297,148 @@
 **Debe completarse:** Esta semana
 
 ### ✅ Tareas de Permisos
-
-- [ ] **3.1 - Actualizar permisos del rol Vendedor**
-  - **Archivo:** `database/seeders/RolesAndPermissionsSeeder.php`
-  - **Línea:** 37-42
-  - **Acción:** Agregar permisos de "ver-*" faltantes
-  - **Código actual:**
-    ```php
-    $roleVendedor->givePermissionTo([
-        'ver-dashboard',
-        'gestionar-clientes',
-        'gestionar-cotizaciones',
-        'gestionar-pedidos',
-    ]);
-    ```
-  - **Código corregido:**
-    ```php
-    $roleVendedor->givePermissionTo([
-        'ver-dashboard',
-        'ver-clientes',
-        'gestionar-clientes',
-        'ver-cotizaciones',
-        'crear-cotizaciones',
-        'gestionar-cotizaciones',
-        'gestionar-pedidos',
-        'ver-caja',
-    ]);
-    ```
-  - ⏱️ **5 minutos**
-
----
-
-- [ ] **3.2 - Actualizar permisos del rol Almacenista**
-  - **Archivo:** `database/seeders/RolesAndPermissionsSeeder.php`
-  - **Línea:** 45-49
-  - **Acción:** Agregar permisos de "ver-*" faltantes
-  - **Código actual:**
-    ```php
-    $roleAlmacenista->givePermissionTo([
-        'gestionar-almacen',
-        'gestionar-articulos',
-        'gestionar-inventario',
-    ]);
-    ```
-  - **Código corregido:**
-    ```php
-    $roleAlmacenista->givePermissionTo([
-        'ver-almacenes',
-        'gestionar-almacen',
-        'gestionar-articulos',
-        'ver-inventario',
-        'gestionar-inventario',
-        'ver-transferencias',
-        'gestionar-transferencias',
-    ]);
-    ```
-  - ⏱️ **5 minutos**
+### (Terminado)
+### - [ ] **3.1 - Actualizar permisos del rol Vendedor**
+###   - **Archivo:** `database/seeders/RolesAndPermissionsSeeder.php`
+###   - **Línea:** 37-42
+###   - **Acción:** Agregar permisos de "ver-*" faltantes
+###   - **Código actual:**
+###     ```php
+###     $roleVendedor->givePermissionTo([
+###         'ver-dashboard',
+###         'gestionar-clientes',
+###         'gestionar-cotizaciones',
+###         'gestionar-pedidos',
+###     ]);
+###     ```
+###   - **Código corregido:**
+###     ```php
+###     $roleVendedor->givePermissionTo([
+###         'ver-dashboard',
+###         'ver-clientes',
+###         'gestionar-clientes',
+###         'ver-cotizaciones',
+###         'crear-cotizaciones',
+###         'gestionar-cotizaciones',
+###         'gestionar-pedidos',
+###         'ver-caja',
+###     ]);
+###     ```
+###   - ⏱️ **5 minutos**
 
 ---
-
-- [ ] **3.3 - Renombrar rol "Almacenistas" a "Almacenista"**
-  - **Archivo:** `database/seeders/RolesAndPermissionsSeeder.php`
-  - **Línea:** 16
-  - **Acción:** Cambiar nombre del rol a singular
-  - **Código actual:**
-    ```php
-    $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenistas']);
-    ```
-  - **Código corregido:**
-    ```php
-    $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenista']);
-    ```
-  - ⚠️ **NOTA:** Este cambio requiere migración manual si ya hay usuarios con el rol antiguo
-  - ⏱️ **5 minutos**
-
----
-
-- [ ] **3.4 - Crear migración para renombrar rol existente**
-  - **Comando:**
-    ```bash
-    php artisan make:migration rename_almacenistas_role
-    ```
-  - **Archivo creado:** `database/migrations/YYYY_MM_DD_XXXXXX_rename_almacenistas_role.php`
-  - **Código del migration:**
-    ```php
-    public function up()
-    {
-        DB::table('roles')
-            ->where('name', 'Almacenistas')
-            ->update(['name' => 'Almacenista']);
-    }
-
-    public function down()
-    {
-        DB::table('roles')
-            ->where('name', 'Almacenista')
-            ->update(['name' => 'Almacenistas']);
-    }
-    ```
-  - ⏱️ **10 minutos**
+### (Terminado)
+### - [ ] **3.2 - Actualizar permisos del rol Almacenista**
+###   - **Archivo:** `database/seeders/RolesAndPermissionsSeeder.php`
+###   - **Línea:** 45-49
+###   - **Acción:** Agregar permisos de "ver-*" faltantes
+###   - **Código actual:**
+###     ```php
+###     $roleAlmacenista->givePermissionTo([
+###         'gestionar-almacen',
+###         'gestionar-articulos',
+###         'gestionar-inventario',
+###     ]);
+###     ```
+###   - **Código corregido:**
+###     ```php
+###     $roleAlmacenista->givePermissionTo([
+###         'ver-almacenes',
+###         'gestionar-almacen',
+###         'gestionar-articulos',
+###         'ver-inventario',
+###         'gestionar-inventario',
+###         'ver-transferencias',
+###         'gestionar-transferencias',
+###     ]);
+###     ```
+###   - ⏱️ **5 minutos**
 
 ---
-
-- [ ] **3.5 - Ejecutar migración de renombrado**
-  - **Comando:**
-    ```bash
-    php artisan migrate
-    ```
-  - **Verificar:** Migración ejecutada sin errores
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **3.6 - Re-ejecutar seeder de roles y permisos**
-  - **Comando:**
-    ```bash
-    php artisan db:seed --class=RolesAndPermissionsSeeder
-    ```
-  - **Verificar:** Permisos actualizados correctamente
-  - ⏱️ **2 minutos**
+### (Terminado)
+### - [ ] **3.3 - Renombrar rol "Almacenistas" a "Almacenista"**
+###   - **Archivo:** `database/seeders/RolesAndPermissionsSeeder.php`
+###   - **Línea:** 16
+###   - **Acción:** Cambiar nombre del rol a singular
+###   - **Código actual:**
+###     ```php
+###     $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenistas']);
+###     ```
+###   - **Código corregido:**
+###     ```php
+###     $roleAlmacenista = Role::firstOrCreate(['name' => 'Almacenista']);
+###     ```
+###   - ⚠️ **NOTA:** Este cambio requiere migración manual si ya hay usuarios con el rol antiguo
+###   - ⏱️ **5 minutos**
 
 ---
-
-- [ ] **3.7 - Limpiar cache de permisos nuevamente**
-  - **Comando:**
-    ```bash
-    php artisan permission:cache-reset
-    ```
-  - ⏱️ **1 minuto**
+### (Terminado)
+### - [ ] **3.4 - Crear migración para renombrar rol existente**
+###   - **Comando:**
+###     ```bash
+###     php artisan make:migration rename_almacenistas_role
+###     ```
+###   - **Archivo creado:** `database/migrations/YYYY_MM_DD_XXXXXX_rename_almacenistas_role.php`
+###   - **Código del migration:**
+###     ```php
+###     public function up()
+###     {
+###         DB::table('roles')
+###             ->where('name', 'Almacenistas')
+###             ->update(['name' => 'Almacenista']);
+###     }
+### 
+###     public function down()
+###     {
+###         DB::table('roles')
+###             ->where('name', 'Almacenista')
+###             ->update(['name' => 'Almacenistas']);
+###     }
+###     ```
+###   - ⏱️ **10 minutos**
 
 ---
+### (Terminado)
+### - [ ] **3.5 - Ejecutar migración de renombrado**
+###   - **Comando:**
+###     ```bash
+###     php artisan migrate
+###     ```
+###   - **Verificar:** Migración ejecutada sin errores
+###   - ⏱️ **2 minutos**
 
-- [ ] **3.8 - Verificar permisos de cada rol en Tinker**
-  - **Comandos:**
-    ```bash
-    php artisan tinker
-    >>> Role::where('name', 'Vendedor')->first()->permissions->pluck('name');
-    >>> Role::where('name', 'Almacenista')->first()->permissions->pluck('name');
-    >>> Role::where('name', 'Admin')->first()->permissions->pluck('name');
-    >>> exit
-    ```
-  - **Verificar:** Cada rol tiene los permisos correctos
-  - ⏱️ **10 minutos**
+---
+### (Terminado)
+###- [ ] **3.6 - Re-ejecutar seeder de roles y permisos**
+###  - **Comando:**
+###    ```bash
+###    php artisan db:seed --class=RolesAndPermissionsSeeder
+###    ```
+###  - **Verificar:** Permisos actualizados correctamente
+###  - ⏱️ **2 minutos**
+
+---
+### (Terminado)
+### - [ ] **3.7 - Limpiar cache de permisos nuevamente**
+###   - **Comando:**
+###     ```bash
+###     php artisan permission:cache-reset
+###     ```
+###   - ⏱️ **1 minuto**
+
+---
+### (Terminado)
+### - [ ] **3.8 - Verificar permisos de cada rol en Tinker**
+###   - **Comandos:**
+###     ```bash
+###     php artisan tinker
+###     >>> Role::where('name', 'Vendedor')->first()->permissions->pluck('name');
+###     >>> Role::where('name', 'Almacenista')->first()->permissions->pluck('name');
+###     >>> Role::where('name', 'Admin')->first()->permissions->pluck('name');
+###     >>> exit
+###     ```
+###   - **Verificar:** Cada rol tiene los permisos correctos
+###   - ⏱️ **10 minutos**
 
 ---
 
