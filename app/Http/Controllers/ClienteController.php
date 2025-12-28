@@ -43,6 +43,8 @@ class ClienteController extends Controller
 
     public function store(Request $request)
     {
+        $this->authorize('gestionar-clientes');
+
         $validated = $request->validate([
             'CardCode' => 'required|unique:clientes,CardCode',
             'nombre' => 'required',
@@ -63,6 +65,8 @@ class ClienteController extends Controller
 
     public function update(Request $request, Cliente $cliente)
     {
+        $this->authorize('gestionar-clientes');
+
         $validated = $request->validate([
             'CardCode' => 'required|unique:clientes,CardCode,' . $cliente->id,
             'nombre' => 'required',
@@ -78,6 +82,8 @@ class ClienteController extends Controller
 
     public function destroy(Cliente $cliente)
     {
+        $this->authorize('gestionar-clientes');
+
         $cliente->delete();
         return redirect()->route('clientes.index')->with('success', 'Cliente eliminado exitosamente');
     }

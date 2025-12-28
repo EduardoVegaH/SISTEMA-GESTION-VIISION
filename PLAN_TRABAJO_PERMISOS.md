@@ -449,108 +449,109 @@
 
 ### ✅ Tareas de Controladores
 
-- [ ] **4.1 - Agregar autorización en ClienteController::store**
-  - **Archivo:** `app/Http/Controllers/ClienteController.php`
-  - **Línea:** 45 (después de la firma del método)
-  - **Código a agregar:**
-    ```php
-    $this->authorize('gestionar-clientes');
-    ```
-  - ⏱️ **2 minutos**
+### (Terminado)
+### - [ ] **4.1 - Agregar autorización en ClienteController::store**
+###   - **Archivo:** `app/Http/Controllers/ClienteController.php`
+###   - **Línea:** 45 (después de la firma del método)
+###   - **Código a agregar:**
+###     ```php
+###     $this->authorize('gestionar-clientes');
+###     ```
+###   - ⏱️ **2 minutos**
 
 ---
-
-- [ ] **4.2 - Agregar autorización en ClienteController::update**
-  - **Archivo:** `app/Http/Controllers/ClienteController.php`
-  - **Línea:** 65 (después de la firma del método)
-  - **Código a agregar:**
-    ```php
-    $this->authorize('gestionar-clientes');
-    ```
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **4.3 - Agregar autorización en ClienteController::destroy**
-  - **Archivo:** `app/Http/Controllers/ClienteController.php`
-  - **Línea:** 80 (después de la firma del método)
-  - **Código a agregar:**
-    ```php
-    $this->authorize('gestionar-clientes');
-    ```
-  - ⏱️ **2 minutos**
+### (Terminado)
+### - [ ] **4.2 - Agregar autorización en ClienteController::update**
+###   - **Archivo:** `app/Http/Controllers/ClienteController.php`
+###   - **Línea:** 65 (después de la firma del método)
+###   - **Código a agregar:**
+###     ```php
+###     $this->authorize('gestionar-clientes');
+###     ```
+###   - ⏱️ **2 minutos**
 
 ---
-
-- [ ] **4.4 - Crear lista de controladores que necesitan autorización**
-  - **Acción:** Revisar todos los controladores en `app/Http/Controllers`
-  - **Lista de controladores a actualizar:**
-    - ArticuloController
-    - InventarioController
-    - CotizacionController
-    - PedidoController
-    - CajaController
-    - EmpleadoController
-    - TiendaController
-    - AlmacenController
-    - ReporteController
-  - ⏱️ **15 minutos**
+### (Terminado)
+### - [ ] **4.3 - Agregar autorización en ClienteController::destroy**
+###   - **Archivo:** `app/Http/Controllers/ClienteController.php`
+###   - **Línea:** 80 (después de la firma del método)
+###   - **Código a agregar:**
+###     ```php
+###     $this->authorize('gestionar-clientes');
+###     ```
+###   - ⏱️ **2 minutos**
 
 ---
-
-- [ ] **4.5 - Agregar autorización en ArticuloController**
-  - **Métodos a proteger:** store, update, destroy
-  - **Permiso:** `gestionar-articulos`
-  - ⏱️ **10 minutos**
-
----
-
-- [ ] **4.6 - Agregar autorización en InventarioController**
-  - **Métodos a proteger:** store, update, destroy (si existen)
-  - **Permiso:** `gestionar-inventario`
-  - ⏱️ **10 minutos**
-
----
-
-- [ ] **4.7 - Agregar autorización en CotizacionController**
-  - **Métodos a proteger:** store, update, destroy
-  - **Permiso:** `gestionar-cotizaciones` o `crear-cotizaciones` (según el método)
-  - ⏱️ **10 minutos**
+### (Terminado)
+### - [ ] **4.4 - Crear lista de controladores que necesitan autorización**
+###   - **Acción:** Revisar todos los controladores en `app/Http/Controllers`
+###   - **Lista de controladores a actualizar:**
+###     - ArticuloController
+###     - InventarioController
+###     - CotizacionController
+###     - PedidoController
+###     - CajaController
+###     - EmpleadoController
+###     - TiendaController
+###     - AlmacenController
+###     - ReporteController
+###   - ⏱️ **15 minutos**
 
 ---
-
-- [ ] **4.8 - Agregar autorización en CajaController**
-  - **Métodos a proteger:** store, update, destroy (si existen)
-  - **Permiso:** `gestionar-caja`
-  - ⏱️ **10 minutos**
-
----
-
-- [ ] **4.9 - Agregar autorización en EmpleadoController**
-  - **Métodos a proteger:** store, update, destroy (cuando se implementen)
-  - **Permiso:** `gestionar-empleados`
-  - ⏱️ **10 minutos**
+### (Terminado)
+### - [ ] **4.5 - Agregar autorización en ArticuloController**
+###   - **Métodos a proteger:** store, update, destroy
+###   - **Permiso:** `gestionar-articulos`
+###   - ⏱️ **10 minutos**
 
 ---
-
-- [ ] **4.10 - Agregar autorización en TiendaController**
-  - **Métodos a proteger:** store, update, destroy (cuando se implementen)
-  - **Permiso:** `gestionar-tiendas`
-  - ⏱️ **10 minutos**
-
----
-
-- [ ] **4.11 - Agregar autorización en AlmacenController**
-  - **Métodos a proteger:** store, update, destroy (cuando se implementen)
-  - **Permiso:** `gestionar-almacen`
-  - ⏱️ **10 minutos**
+### (Terminado)
+### - [ ] **4.6 - Agregar autorización en InventarioController**
+###   - **Métodos a proteger:** store, update, destroy (si existen)
+###   - **Permiso:** `gestionar-inventario`
+###   - ⏱️ **10 minutos**
 
 ---
+### (Terminado)
+### - [ ] **4.7 - Agregar autorización en CotizacionController**
+###   - **Métodos a proteger:** store, update, destroy
+###   - **Permiso:** `gestionar-cotizaciones` o `crear-cotizaciones` (según el método)
+###   - ⏱️ **10 minutos**
 
-- [ ] **4.12 - Verificar autorizaciones con tests manuales**
-  - **Acción:** Intentar ejecutar acciones sin permisos
-  - **Resultado esperado:** Error 403 o AuthorizationException
-  - ⏱️ **20 minutos**
+---
+### (Terminado)
+### - [ ] **4.8 - Agregar autorización en CajaController**
+###   - **Métodos a proteger:** store, update, destroy (si existen)
+###   - **Permiso:** `gestionar-caja`
+###   - ⏱️ **10 minutos**
+
+---
+### (Terminado)
+### - [ ] **4.9 - Agregar autorización en EmpleadoController**
+###   - **Métodos a proteger:** store, update, destroy (cuando se implementen)
+###   - **Permiso:** `gestionar-empleados`
+###   - ⏱️ **10 minutos**
+
+---
+### (Terminado)
+### - [ ] **4.10 - Agregar autorización en TiendaController**
+###   - **Métodos a proteger:** store, update, destroy (cuando se implementen)
+###   - **Permiso:** `gestionar-tiendas`
+###   - ⏱️ **10 minutos**
+
+---
+### (Terminado)
+### - [ ] **4.11 - Agregar autorización en AlmacenController**
+###   - **Métodos a proteger:** store, update, destroy (cuando se implementen)
+###   - **Permiso:** `gestionar-almacen`
+###   - ⏱️ **10 minutos**
+
+---
+### (Terminado)
+###    - [ ] **4.12 - Verificar autorizaciones con tests manuales**
+###    - **Acción:** Intentar ejecutar acciones sin permisos
+###    - **Resultado esperado:** Error 403 o AuthorizationException
+###    - ⏱️ **20 minutos**
 
 ---
 
@@ -560,42 +561,42 @@
 **Debe completarse:** Próxima semana
 
 ### ✅ Tareas de Testing
-
-- [ ] **5.1 - Crear archivo de tests completo**
-  - **Comando:**
-    ```bash
-    php artisan make:test PermissionSystemTest
-    ```
-  - **Archivo creado:** `tests/Feature/PermissionSystemTest.php`
-  - ⏱️ **2 minutos**
-
----
-
-- [ ] **5.2 - Escribir test: Admin puede acceder a todas las rutas**
-  - **Test:** `test_admin_can_access_all_routes`
-  - **Rutas a probar:** dashboard, clientes, empleados, tiendas, almacenes, inventario, caja, cotizaciones, reportes, transferencias
-  - ⏱️ **20 minutos**
+### (Terminado)
+### - [ ] **5.1 - Crear archivo de tests completo**
+###   - **Comando:**
+###     ```bash
+###     php artisan make:test PermissionSystemTest
+###     ```
+###   - **Archivo creado:** `tests/Feature/PermissionSystemTest.php`
+###   - ⏱️ **2 minutos**
 
 ---
-
-- [ ] **5.3 - Escribir test: Vendedor puede acceder a sus rutas**
-  - **Test:** `test_vendedor_can_access_allowed_routes`
-  - **Rutas a probar:** dashboard, clientes, cotizaciones, caja
-  - ⏱️ **15 minutos**
-
----
-
-- [ ] **5.4 - Escribir test: Vendedor NO puede acceder a rutas prohibidas**
-  - **Test:** `test_vendedor_cannot_access_forbidden_routes`
-  - **Rutas a probar:** empleados, tiendas, almacenes, inventario, reportes
-  - ⏱️ **15 minutos**
+### (Terminado)
+### - [ ] **5.2 - Escribir test: Admin puede acceder a todas las rutas**
+###   - **Test:** `test_admin_can_access_all_routes`
+###   - **Rutas a probar:** dashboard, clientes, empleados, tiendas, almacenes, inventario, caja, cotizaciones, reportes, transferencias
+###   - ⏱️ **20 minutos**
 
 ---
+### (Terminado)
+### - [ ] **5.3 - Escribir test: Vendedor puede acceder a sus rutas**
+###   - **Test:** `test_vendedor_can_access_allowed_routes`
+###   - **Rutas a probar:** dashboard, clientes, cotizaciones, caja
+###   - ⏱️ **15 minutos**
 
-- [ ] **5.5 - Escribir test: Almacenista puede acceder a sus rutas**
-  - **Test:** `test_almacenista_can_access_allowed_routes`
-  - **Rutas a probar:** inventario, almacenes, transferencias
-  - ⏱️ **15 minutos**
+---
+### (Terminado)
+### - [ ] **5.4 - Escribir test: Vendedor NO puede acceder a rutas prohibidas**
+###   - **Test:** `test_vendedor_cannot_access_forbidden_routes`
+###   - **Rutas a probar:** empleados, tiendas, almacenes, inventario, reportes
+###   - ⏱️ **15 minutos**
+
+---
+### (Terminado)
+### - [ ] **5.5 - Escribir test: Almacenista puede acceder a sus rutas**
+###   - **Test:** `test_almacenista_can_access_allowed_routes`
+###   - **Rutas a probar:** inventario, almacenes, transferencias
+###   - ⏱️ **15 minutos**
 
 ---
 

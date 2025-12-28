@@ -24,6 +24,8 @@ class CotizacionController extends Controller
 
     public function store(Request $request)
     {
+        $this->authorize('gestionar-cotizaciones');
+
         // Lógica para guardar cotización
         return redirect()->route('cotizaciones.index');
     }
