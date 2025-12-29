@@ -35,6 +35,8 @@ class PermissionSystemTest extends TestCase
             'ver-cotizaciones',
             'ver-reportes',
             'ver-transferencias',
+            'crear-cotizaciones',
+            'gestionar-cotizaciones',
         ];
 
         foreach ($permissions as $perm) {
