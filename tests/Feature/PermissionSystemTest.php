@@ -98,6 +98,7 @@ class PermissionSystemTest extends TestCase
             ->assertStatus(200);
     }
 
+    /*Test: Vendedor puede acceder a sus rutas*/
     /** @test */
     public function vendedor_can_access_allowed_routes()
     {
@@ -138,6 +139,7 @@ class PermissionSystemTest extends TestCase
             ->assertStatus(200);
     }
 
+    /*Test: Vendedor no puede acceder a rutas prohibidas*/
     /** @test */
     public function vendedor_cannot_access_forbidden_routes()
     {
@@ -190,6 +192,7 @@ class PermissionSystemTest extends TestCase
             ->assertStatus(403);
     }
 
+    /*Test: Almacenista puede acceder a sus rutas*/
     /** @test */
     public function almacenista_can_access_allowed_routes()
     {
@@ -232,4 +235,161 @@ class PermissionSystemTest extends TestCase
             ->assertStatus(200);
     }
 
+    /*Test: Almacenista no puede acceder a rutas prohibidas*/
+    /** @test */
+    public function almacenista_cannot_access_forbidden_routes()
+    {
+        //1. ARRANGE: Crear rol Almacenista con permisos limitados
+        $almacenistaRole = Role::firstOrCreate(['name' => 'Almacenista']);
+        $almacenistaRole->givePermissionTo([
+            'ver-almacenes',
+            'ver-inventario',
+            'ver-transferencias',
+        ]);
+
+        //2. ARRANGE: Crear usuario Almacenista
+        $almacenista = User::factory()->create([
+            'email' => 'almacenista-forbidden@example.com',
+            'password' => bcrypt('password123'),
+        ]);
+        $almacenista->assignRole('Almacenista');
+
+        //3. ACT y ASSERT: Probar rutas prohibidas
+
+        // Dashboard - DEBE dar error 403
+        $this->actingAs($almacenista)
+            ->get('/dashboard')
+            ->assertStatus(403);
+
+        // Clientes - DEBE dar error 403
+        $this->actingAs($almacenista)
+            ->get('/clientes')
+            ->assertStatus(403);
+        // Empleados - DEBE dar error 403
+        $this->actingAs($almacenista)
+            ->get('/empleados')
+            ->assertStatus(403);
+        // Tiendas - DEBE dar error 403
+        $this->actingAs($almacenista)
+            ->get('/tiendas')
+            ->assertStatus(403);
+        // Caja - DEBE dar error 403
+        $this->actingAs($almacenista)
+            ->get('/caja')
+            ->assertStatus(403);
+        // Cotizaciones - DEBE dar error 403
+        $this->actingAs($almacenista)
+            ->get('/cotizaciones')
+            ->assertStatus(403);
+        // Reportes - DEBE dar error 403
+        $this->actingAs($almacenista)
+            ->get('/reportes')
+            ->assertStatus(403);
+    }
+
+    /*Test: Usuario sin rol no puede acceder a rutas prohibidas*/
+    /** @test */
+    public function user_without_role_cannot_access_protected_routes()
+    {
+        //1. ARRANGE: Crear usuario SIN rol sin permisos
+        $user = User::factory()->create([
+            'email' => 'norole@example.com',
+            'password' => bcrypt('password123'),
+        ]);
+        //NO asignamos ningún rol - esto es lo importante
+
+        // 2. ACT y ASSERT: Intentar acceder a TODAS las rutas
+        // TODAS deben dar 4.3 (Forbidden)
+
+        $this->actingAs($user)
+            ->get('/dashboard')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/clientes')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/empleados')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/tiendas')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/almacenes')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/inventario')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/caja')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/cotizaciones')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/reportes')
+            ->assertStatus(403);
+
+        $this->actingAs($user)
+            ->get('/transferencias')
+            ->assertStatus(403);
+    }
+
+    /*Test: Vendedor puede crear cotización */
+    /** @test */
+    public function vendedor_can_create_cotizacion()
+    {
+        // 1. ARRANGE: Crear rol Vendedor con permisos específicos
+        $vendedorRole = Role::firstOrCreate(['name' => 'Vendedor']);
+        $vendedorRole->givePermissionTo([
+            'ver-cotizaciones',
+            'crear-cotizaciones',
+        ]);
+
+        // 2. ARRANGE: Crear usuario vendedor
+        $vendedor = User::factory()->create([
+            'email' => 'vendedor-create@example.com',
+            'password' => bcrypt('password123'),
+        ]);
+        $vendedor->assignRole('Vendedor');
+
+        // 3. ACT & ASSERT: Verificar que puede acceder a crear cotización
+        $this->actingAs($vendedor)
+            ->get('/cotizaciones/create')
+            ->assertStatus(200);
+    }
+
+    /*Test: Almacenista NO puede crear cotización */
+    /** @test */
+    public function almacenista_cannot_create_cotizacion()
+    {
+        // 1. ARRANGE: Crear rol Almacenista SIN permiso de cotizaciones
+        $almacenistaRole = Role::firstOrCreate(['name' => 'Almacenista']);
+        $almacenistaRole->givePermissionTo([
+            'ver-almacenes',
+            'ver-inventario',
+            'ver-transferencias',
+        ]);
+
+        // 2. ARRANGE: Crear usuario ALmacenista
+        $almacenista = User::factory()->create([
+            'email' => 'almacenista-nocotizacion@example.com',
+            'password' => bcrypt('password123'),
+        ]);
+
+        $almacenista->assignRole('Almacenista');
+
+        // 3. ACT & ASSERT: Verifica que NO puede acceder
+        // Status 403 = Prohibido (correcto)
+        $this->actingAs($almacenista)
+            ->get('/cotizaciones/create')
+            ->assertStatus(403);
+    }
 }
