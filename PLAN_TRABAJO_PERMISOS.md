@@ -599,45 +599,45 @@
 ###   - ⏱️ **15 minutos**
 
 ---
-
-- [ ] **5.6 - Escribir test: Almacenista NO puede acceder a rutas prohibidas**
-  - **Test:** `test_almacenista_cannot_access_forbidden_routes`
-  - **Rutas a probar:** clientes, empleados, tiendas, caja, cotizaciones, reportes
-  - ⏱️ **15 minutos**
-
----
-
-- [ ] **5.7 - Escribir test: Usuario sin rol no puede acceder a nada**
-  - **Test:** `test_user_without_role_cannot_access_protected_routes`
-  - ⏱️ **10 minutos**
+### (Terminado)
+### - [ ] **5.6 - Escribir test: Almacenista NO puede acceder a rutas prohibidas**
+###   - **Test:** `test_almacenista_cannot_access_forbidden_routes`
+###   - **Rutas a probar:** clientes, empleados, tiendas, caja, cotizaciones, reportes
+###   - ⏱️ **15 minutos**
 
 ---
-
-- [ ] **5.8 - Escribir test: Vendedor puede crear cotización**
-  - **Test:** `test_vendedor_can_create_cotizacion`
-  - ⏱️ **15 minutos**
-
----
-
-- [ ] **5.9 - Escribir test: Almacenista NO puede crear cotización**
-  - **Test:** `test_almacenista_cannot_create_cotizacion`
-  - ⏱️ **10 minutos**
+### (Terminado)
+### - [ ] **5.7 - Escribir test: Usuario sin rol no puede acceder a nada**
+###   - **Test:** `test_user_without_role_cannot_access_protected_routes`
+###   - ⏱️ **10 minutos**
 
 ---
-
-- [ ] **5.10 - Ejecutar suite de tests**
-  - **Comando:**
-    ```bash
-    php artisan test --filter=PermissionSystemTest
-    ```
-  - **Verificar:** Todos los tests pasan
-  - ⏱️ **5 minutos**
+### (Terminado)
+### - [ ] **5.8 - Escribir test: Vendedor puede crear cotización**
+###   - **Test:** `test_vendedor_can_create_cotizacion`
+###   - ⏱️ **15 minutos**
 
 ---
+### (Terminado)
+### - [ ] **5.9 - Escribir test: Almacenista NO puede crear cotización**
+###   - **Test:** `test_almacenista_cannot_create_cotizacion`
+###   - ⏱️ **10 minutos**
 
-- [ ] **5.11 - Configurar CI/CD para tests automáticos (opcional)**
-  - **Archivo:** `.github/workflows/tests.yml` o similar
-  - ⏱️ **30 minutos**
+---
+### (Terminado)
+### - [ ] **5.10 - Ejecutar suite de tests**
+###   - **Comando:**
+###     ```bash
+###     php artisan test --filter=PermissionSystemTest
+###     ```
+###   - **Verificar:** Todos los tests pasan
+###   - ⏱️ **5 minutos**
+
+---
+### (Terminado)
+### - [ ] **5.11 - Configurar CI/CD para tests automáticos (opcional)**
+###   - **Archivo:** `.github/workflows/tests.yml` o similar
+###   - ⏱️ **30 minutos**
 
 ---
 
